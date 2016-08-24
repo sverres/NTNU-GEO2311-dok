@@ -16,4 +16,5 @@
 ## Resources
 
 - [w3Schools](http://www.w3schools.com/)
-  - see References   
+  - see References
+- HTML&CSS textbook
