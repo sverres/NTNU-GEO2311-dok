@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>index</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./styles/prism.css">
+  <style>
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+body {
+  font-family: 'Droid Serif';
+  margin-left: 3%;
+  width: 80%;
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+pre {
+  font-family: 'Ubuntu Mono';
+}
+.MathJax_Display {
+  text-align: left !important;
+  display: inline !important;
+  padding-left: 1%;
+}
+  </style>
+</head>
+
+<body>
+
+  <div id="mdcontent">
+# All files
+
+## Plans
+
+- [week-1](./week-1.html)
+
+## Presentations
+
+- [*](./*.html)
+
+## Notes
+
+- [*](./*.html)
+
+## This version
+
+- 2016-08-24 10:49:44 +0200 |Sverre Stikbakke |test
+
+## Earlier versions
+
+- [2016-08-24 10:47:40 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ac57f62c9684975402f2fea630d590561718fd65/)
+- [2016-08-24 10:41:55 +0200 |Sverre Stikbakke |first commit](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fdf20611250ec244e201c7025c7f77ba47886317/)
+
+## Future version
+
+- [bleeding edge a.k.a. master](https://rawgit.com/sverres/NTNU-GEO2311-dok/master/)
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.3.0/showdown.min.js">
+</script>
+<script>
+  var converter = new showdown.Converter();
+  converter.setOption('simplifiedAutoLink', true);
+  converter.setOption('tables', true);
+  var convert = function() {
+    $('#mdcontent').html(converter.makeHtml($('#mdcontent').text()));
+  };
+  convert();
+</script>
+<script src="./script/prism.js">
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+</body>
+
+</html>
