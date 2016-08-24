@@ -1,0 +1,3 @@
+[submodule "mdpublish"]
+	path = mdpublish
+	url = https://github.com/sverres/mdpublish.git
