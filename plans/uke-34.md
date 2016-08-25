@@ -1,4 +1,4 @@
-# GEO2311 - Høst 2016 - uke 33
+# GEO2311 - Høst 2016 - uke 34
 
 
 ## Målsetting
