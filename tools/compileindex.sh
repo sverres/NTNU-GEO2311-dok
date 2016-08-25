@@ -16,10 +16,10 @@ INDEXFILE='../index/index.md'
 # use only if called from commitall.sh
 COMMITMSG="${1}"
 
-echo '# All files' > "${INDEXFILE}"
+echo '# GEO2311-filer' > "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 
-echo '## Plans' >> "${INDEXFILE}"
+echo '## Ukeplaner' >> "${INDEXFILE}"
 #
 # insert link to html files: [filename](url)
 #
@@ -31,7 +31,7 @@ do
 done
 echo '' >> "${INDEXFILE}"
 
-echo '## Presentations' >> "${INDEXFILE}"
+echo '## Presentasjoner' >> "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 for file in ${PRESENTATIONSFILES}
 do
@@ -40,7 +40,7 @@ do
 done
 echo '' >> "${INDEXFILE}"
 
-echo '## Notes' >> "${INDEXFILE}"
+echo '## Andre filer' >> "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 for file in ${NOTESFILES}
 do
@@ -57,7 +57,7 @@ cd ..
 REPO="$(pwd)"
 cd tools
 
-echo '## This version' >> "${INDEXFILE}"
+echo '## Denne versjonen' >> "${INDEXFILE}"
 #
 # insert current date and time
 #
@@ -66,7 +66,7 @@ echo "- $(date +'%F %T %z') |$(git config --get user.name) |${COMMITMSG}"\
  >> "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 
-echo '## Earlier versions' >> "${INDEXFILE}"
+echo '## Tidligere versjoner' >> "${INDEXFILE}"
 #
 # from git log, insert from each commit:
 # - date and time (%ai)
@@ -80,7 +80,7 @@ git log --pretty=format:'- [%ai |%an |%s]'\
 echo '' >> "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 
-echo '## Future version' >> "${INDEXFILE}"
+echo '## Under arbeid' >> "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
-echo '- [bleeding edge a.k.a. master]'\
+echo '- [siste versjon]'\
 "(https://rawgit.com/$GITHUBUSER/$(basename ${REPO})/master/)" >> "${INDEXFILE}"

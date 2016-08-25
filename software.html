@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>software</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./styles/prism.css">
+  <style>
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
@@ -67,3 +75,42 @@ table tr:nth-child(2n-2) td {
   display: inline !important;
   padding-left: 1%;
 }
+  </style>
+</head>
+
+<body>
+
+  <div id="mdcontent">
+# Programvare
+
+|Programvare|Brukes til|
+|:--|:--|
+|[GIT Bash](https://git-scm.com/)|filhåndtering, versjonskontroll, m.m.|
+|[Atom](https://atom.io/)|tekstredigering (programkode)|
+|[Notepad 2 mod](https://xhmikosr.io/notepad2-mod/)|tekstredigering (programkode m.m.)- raskt og lett program|
+|[Notepad++](https://notepad-plus-plus.org/)|tekstredigering (visning av XML-filer)|
+|[OpenGeo Suite](http://boundlessgeo.com/products/opengeo-suite/)|PostGIS geografisk database|
+|[QGIS](http://boundlessgeo.com/products/qgis/)|GIS-program|
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.3.0/showdown.min.js">
+</script>
+<script>
+  var converter = new showdown.Converter();
+  converter.setOption('simplifiedAutoLink', true);
+  converter.setOption('tables', true);
+  var convert = function() {
+    $('#mdcontent').html(converter.makeHtml($('#mdcontent').text()));
+  };
+  convert();
+</script>
+<script src="./script/prism.js">
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+</body>
+
+</html>
