@@ -5,35 +5,61 @@
 # sverre.stikbakke@ntnu.no 18.04.2016
 #
 
-mkdir -p "${WORK}"
+#
+# change relative adress for image files: ../images to ./images
+# reason: images are used in md files as well as html files
+#
+modify_image_links() {
+  local mdfile
+  mdfile="${1}" || return
 
-for file in ${MDFILES}
-do
-  cp  "${file}" "${WORK}/temp.md"
+  sed -e 's#\.\./images#\./images#' -i "${mdfile}"
+}
 
-  # change '<' to '&lt;' - prism.js requirement
-  sed -e 's#<#\&lt;#' -i "${WORK}/temp.md"
+insert_title() {
+  local mdfile
+  local htmlfile
+  local placeholder
 
-  # change relative adress for image files
-  # (images are used in md files as well as html files)
-  sed -e 's#\.\./images#\./images#' -i "${WORK}/temp.md"
+  mdfile="${1}" || return
+  htmlfile="${2}" || return
+  placeholder="${3}" || return
 
-  cp "${TEMPLATES}/${TEMPLATE}" "${WORK}/temp.html"
+  sed -e "s/${placeholder}/$(basename "${mdfile}" .md)/" -i "${htmlfile}"
+}
 
-  # set HTML title to filename
-  sed -e "s/${PLACEHOLDERTITLE}/$(basename ${file} .md)/"\
-   -i "${WORK}/temp.html"
+insert_from_file() {
+  local insertfile
+  local editfile
+  local placeholder
 
-  # insert css code into html file
-  sed -e "/${PLACEHOLDERCSS}/{" -e "r ${STYLES}/${CSS}" -e "d" -e "}"\
-   -i "${WORK}/temp.html"
+  insertfile="${1}" || return
+  editfile="${2}" || return
+  placeholder="${3}" || return
 
-  # insert modified markdown file into html file
-  sed -e "/${PLACEHOLDERMD}/{" -e "r ${WORK}/temp.md" -e "d" -e "}"\
-   -i "${WORK}/temp.html"
+  sed -e "/${placeholder}/{" -e "r ${insertfile}" -e "d" -e "}" -i "${editfile}"
+}
 
-  # rename html file to md file name and move to output directory
-  echo "${HTMLOUTPUT}/$(basename ${file} .md).html"
-  mv "${WORK}/temp.html" "${HTMLOUTPUT}/$(basename ${file} .md).html"
+process_mdfiles() {
+  for srcfile in ${MDFILES}; do
+    cp  "${srcfile}" "${WORK}/temp.md"
+    modify_image_links "${WORK}/temp.md"
+
+    cp "${TEMPLATES}/${TEMPLATE}" "${WORK}/temp.html"
+
+    insert_title "${srcfile}" "${WORK}/temp.html" "${PLACEHOLDERTITLE}"
+    insert_from_file "${STYLES}/${CSS}" "${WORK}/temp.html" "${PLACEHOLDERCSS}"
+    insert_from_file "${WORK}/temp.md" "${WORK}/temp.html" "${PLACEHOLDERMD}"
+
+    mv "${WORK}/temp.html" "${HTMLOUTPUT}/$(basename "${srcfile}" .md).html"
+
+    printf "%s\n" "${HTMLOUTPUT}/$(basename "${srcfile}" .md).html"
+  done
+}
+
+
+if [ "$(ls -A ${MDFILES})" ]; then
+  mkdir -p "${WORK}"
+  process_mdfiles
   rm "${WORK}/temp.md"
-done
+fi

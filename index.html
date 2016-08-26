@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>index</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="./styles/prism.css">
-  <style>
+    <title>index</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
+    <style>
+
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
@@ -21,17 +21,58 @@ h1, h2, h3 {
 pre {
   font-family: 'Ubuntu Mono';
 }
+#mdcontent {
+  display: none;
+}
+table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+table td,
+table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+table td:first-child,
+table th:first-child {
+    border-left-width: 0;
+}
+table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+/* nth-child selector for modern browsers */
+table tr:nth-child(2n-2) td {
+    background-color: #f2f2f2;
+}
 .MathJax_Display {
   text-align: left !important;
   display: inline !important;
   padding-left: 1%;
 }
-  </style>
+
+    </style>
 </head>
-
 <body>
+    <div id="mdcontent">
 
-  <div id="mdcontent">
 # GEO2311-filer
 
 ## Ukeplaner
@@ -40,7 +81,7 @@ pre {
 
 ## Presentasjoner
 
-- [*](./*.html)
+- [presentasjoner-uke-34](./presentasjoner-uke-34.html)
 
 ## Andre filer
 
@@ -50,10 +91,11 @@ pre {
 
 ## Denne versjonen
 
-- 2016-08-25 08:41:50 +0200 |Sverre Stikbakke |uke 34
+- 2016-08-26 17:24:03 +0200 |Sverre Stikbakke |Uke 34 med opptak
 
 ## Tidligere versjoner
 
+- [2016-08-25 08:41:50 +0200 |Sverre Stikbakke |uke 34](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/25df4590e6012cc1e9dbd17b18691cd84ef63165/)
 - [2016-08-25 08:33:22 +0200 |Sverre Stikbakke |uke 33](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/bedbe9ab3e4da251301aa1557cbcee3ec55de637/)
 - [2016-08-24 11:41:27 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0cd6f867f7d328abc8c47f839077007d468fa74b/)
 - [2016-08-24 10:49:45 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/475cbae1a54935479c1d80b6ea49757f14d2f226/)
@@ -63,26 +105,33 @@ pre {
 ## Under arbeid
 
 - [siste versjon](https://rawgit.com/sverres/NTNU-GEO2311-dok/master/)
-  </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.3.0/showdown.min.js">
-</script>
-<script>
-  var converter = new showdown.Converter();
-  converter.setOption('simplifiedAutoLink', true);
-  converter.setOption('tables', true);
-  var convert = function() {
-    $('#mdcontent').html(converter.makeHtml($('#mdcontent').text()));
-  };
-  convert();
-</script>
-<script src="./script/prism.js">
-</script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
+    </div>
+    <div id="md2html">
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/7.0.1/markdown-it.min.js">
+    </script>
+    <script type="text/javascript" src="script/markdown-it-link-target.min.js">
+    </script>
+    <script>
+        var md = markdownit();
+        md.use(markdownitLinkTarget);
+        var markdown = document.getElementById('mdcontent');
+        document.getElementById("md2html").innerHTML = md.render(markdown.innerHTML);
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js">
+    </script>
+    <script>
+        MathJax.Hub.Config({
+            "HTML-CSS": {
+                styles: {
+                    "text-align": "left",
+                }
+            }
+        });
+        hljs.initHighlightingOnLoad();
+    </script>
 </body>
-
 </html>
