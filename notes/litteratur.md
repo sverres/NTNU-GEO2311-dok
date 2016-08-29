@@ -11,7 +11,7 @@
 
 ## GIT m.m.
 
--
+- [Ryan's Tutorials - Linux tutorial](http://ryanstutorials.net/)
 
 ## Javascript
 
