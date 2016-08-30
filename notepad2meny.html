@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>index</title>
+    <title>notepad2meny</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
     <style>
@@ -73,43 +73,43 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO2311-filer
+# Notepad 2 mod
 
-## Ukeplaner
+Notepad 2 mod er en modifisert versjon av tekstbehandleren Notepad 2 som igjen er laget med å være en erstatter for Windows Notepad.
 
-- [uke-34](./uke-34.html)
-- [uke-35](./uke-35.html)
+![kontekstmeny](./images/tools/notepad2logo.png)
 
-## Presentasjoner
+Gode grunner for å bruke Notepad 2 mod:
 
-- [presentasjoner-uke-34](./presentasjoner-uke-34.html)
+- rask
+- håndtererer linjeskift på en god måte (viktig ved visning av filer)
+- har fargekoding av programkode for å gi god oversikt over strukturen i koden
+- har "code folding" - kan skjule deler av koden
 
-## Andre filer
+Kontektsmeny vil si en meny som er tilpasset situasjonen (konteksten) du er i. For eksempel så kan menyen ha ulike valg avhengig av hvilken filtype du ser på. En type kontekstmeny kommer fram hvis du høyreklikker på en fil i en Windows-mappe.
 
-- [emneplan](./emneplan.html)
-- [litteratur](./litteratur.html)
-- [notepad2meny](./notepad2meny.html)
-- [programvare](./programvare.html)
+## Hvordan legge til Notepad2 som et valg i kontekstmenyen?
 
-## Denne versjonen
+- Notepad 2 mod må være installert
+- Kopier inn teksten nedenfor i en tom fil i Notepad 2 mod
 
-- 2016-08-30 15:09:49 +0200 |Sverre Stikbakke |notepad 2 kontekstmeny
+```
+Windows Registry Editor Version 5.00
 
-## Tidligere versjoner
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Notepad2]
+@="&Notepad2"
 
-- [2016-08-29 20:48:05 +0200 |Sverre Stikbakke |uke 35 - versjon 1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7db537670965a51a0458bc09509907db36033630/)
-- [2016-08-26 17:31:59 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/788647b57ad94c8d821395fad701009cff770725/)
-- [2016-08-26 17:24:03 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/00e975ba3f5163125313ec3ad3e40c09c5bd76de/)
-- [2016-08-25 08:41:50 +0200 |Sverre Stikbakke |uke 34](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/25df4590e6012cc1e9dbd17b18691cd84ef63165/)
-- [2016-08-25 08:33:22 +0200 |Sverre Stikbakke |uke 33](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/bedbe9ab3e4da251301aa1557cbcee3ec55de637/)
-- [2016-08-24 11:41:27 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0cd6f867f7d328abc8c47f839077007d468fa74b/)
-- [2016-08-24 10:49:45 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/475cbae1a54935479c1d80b6ea49757f14d2f226/)
-- [2016-08-24 10:47:40 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ac57f62c9684975402f2fea630d590561718fd65/)
-- [2016-08-24 10:41:55 +0200 |Sverre Stikbakke |first commit](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fdf20611250ec244e201c7025c7f77ba47886317/)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Notepad2\command]
+@="\"C:\\Program Files\\Notepad2\\notepad2.exe\" \"%1\" %*"
+```
 
-## Under arbeid
+- lagre filen som notepad-meny.reg
+- klikk på filen og kjør notepad-meny.reg (du vil få en advarsel, men du kan kjøre denne filen)
+- høyreklikk på noen ulike filtyper og sjekk at du har valget Notepad2 på kontekstmenyen (Det skal normalt vises på alle filtyper).
 
-- [siste versjon](https://rawgit.com/sverres/NTNU-GEO2311-dok/master/)
+Slik kan kontekstmenyen se ut:
+
+![kontekstmeny](./images/tools/notepad2meny.png)
 
     </div>
     <div id="md2html">

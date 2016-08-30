@@ -13,14 +13,16 @@
 
 - [emneplan](./emneplan.html)
 - [litteratur](./litteratur.html)
+- [notepad2meny](./notepad2meny.html)
 - [programvare](./programvare.html)
 
 ## Denne versjonen
 
-- 2016-08-29 20:48:04 +0200 |Sverre Stikbakke |uke 35 - versjon 1
+- 2016-08-30 15:09:49 +0200 |Sverre Stikbakke |notepad 2 kontekstmeny
 
 ## Tidligere versjoner
 
+- [2016-08-29 20:48:05 +0200 |Sverre Stikbakke |uke 35 - versjon 1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7db537670965a51a0458bc09509907db36033630/)
 - [2016-08-26 17:31:59 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/788647b57ad94c8d821395fad701009cff770725/)
 - [2016-08-26 17:24:03 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/00e975ba3f5163125313ec3ad3e40c09c5bd76de/)
 - [2016-08-25 08:41:50 +0200 |Sverre Stikbakke |uke 34](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/25df4590e6012cc1e9dbd17b18691cd84ef63165/)

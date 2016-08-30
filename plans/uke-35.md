@@ -19,8 +19,8 @@ Dette bygger på aktivitetene i planen for uke 34, så de må gjøres først.
 - leksjonene 4-6 i [HTML&CSS](https://www.codecademy.com/learn/web)-kurset
 - les de oppgitte sidene i læreboka (dette er ganske lettleste sider) 
 - BASH-intro - les de oppgitte Ryans tutorials
-- Lag en kontekst-meny for Notepad 2 (5 min - instruksjon kommer tirsdag ettermiddag)
-- Installer Emmet i Atom (5 min - instruksjon kommer tirsdag ettermiddag)
+- Lag en kontekst-meny for Notepad 2 (5 min - se [instruksjon](notepad2meny.html))
+- Installer Emmet i Atom (5 min - instruksjon kommer onsdag)
 - Last ned eksempelfiler fra forelesningen i uke 34 (15 min - instruksjon kommer onsdag)
 
 ## Forelesning/fellesaktivitet på torsdag
