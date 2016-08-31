@@ -28,6 +28,8 @@ Dette bygger på aktivitetene i planen for uke 34, så de må gjøres først.
 - demo av kommandolinje-verktøy og GIT
 - forelesning om historikk og bakgrunn for HTML
 - forelesning - introduksjon til CSS
+- informasjon om Idélab-24
+- informasjon om referansegrupper
 - quizz - HTML-teori fra kapittel 1-3 i lærebok
 
 ## Ressurser
