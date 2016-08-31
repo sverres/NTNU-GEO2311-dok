@@ -20,7 +20,7 @@ Dette bygger på aktivitetene i planen for uke 34, så de må gjøres først.
 - les de oppgitte sidene i læreboka (dette er ganske lettleste sider) 
 - BASH-intro - les de oppgitte Ryans tutorials
 - Lag en kontekst-meny for Notepad 2 (5 min - se [instruksjon](notepad2meny.html))
-- Installer Emmet i Atom (5 min - instruksjon kommer onsdag)
+- Installer Emmet i Atom (10 min - se [instruksjon](emmet.html))
 - Last ned eksempelfiler fra forelesningen i uke 34 (15 min - instruksjon kommer onsdag)
 
 ## Forelesning/fellesaktivitet på torsdag
