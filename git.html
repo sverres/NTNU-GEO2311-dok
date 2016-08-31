@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>index</title>
+    <title>git</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
     <style>
@@ -73,49 +73,63 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO2311-filer
 
-## Ukeplaner
+# GIT - distribuert versjonskontroll
 
-- [uke-34](./uke-34.html)
-- [uke-35](./uke-35.html)
+GIT er et verktøy for å holde styr på programkode etter hvert som en eller flere programutviklere gjør endringer i koden. Et sentralt begrep i GIT er repository, ofte omtalt som repo. Dette engelske ordet kan oversettes med **oppbevaringssted**.
 
-## Presentasjoner
+Som emneansvarlig i GEO2311 administrerer jeg et to sentrale repos, der ett er for websidene som presenterer faginnholdet med ukeplaner, emneplan og oppgavetekster. Det andre er for kodeeksempler som skal brukes videre i øvinger.
 
-- [presentasjoner-uke-34](./presentasjoner-uke-34.html)
+Mine repos er
 
-## Andre filer
+- [NTNU-GEO2311-dok](https://github.com/sverres/NTNU-GEO2311-dok) for dokumenter og websider.
+- [NTNU-GEO2311](https://github.com/sverres/NTNU-GEO2311) for kodeeksempler
 
-- [emmet](./emmet.html)
-- [emneplan](./emneplan.html)
-- [git](./git.html)
-- [litteratur](./litteratur.html)
-- [notepad2meny](./notepad2meny.html)
-- [programvare](./programvare.html)
+Begge disse repoene ligger lagret på [github](https://github.com/). Som studenter skal dere forholde dere til NTNU-GEO2311-dok gjennom Blackboard og til NTNU-GEO2311 gjennom kommandolinjeverktøy for GIT. Instruksjon for hvordan dette skal gjøres vil bli gitt i ukeplanene.
 
-## Denne versjonen
+Denne uka skal vi laste ned filer fra NTNU-GEO2311-repoet ved å klone det.
 
-- 2016-08-31 23:28:50 +0200 |Sverre Stikbakke |GIT
+## Kloning av NTNU-GEO2311-repoet på github
 
-## Tidligere versjoner
+- GIT forutsettes installert på egen PC først.
+- opprett en mappe under C:\ som kalles NTNU
+- høyreklikk i mappen og velg GIT Bash here. Det vil da åpnes et kommandovindu i den aktuelle mappen.
+- skriv inn denne kommandoen og trykk enter:
 
-- [2016-08-31 14:28:39 +0200 |Sverre Stikbakke |uke 35 v2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9ab264abc22dbee79f30ad51b1e85e2a5dd30d42/)
-- [2016-08-31 14:14:25 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c2b7ec9a678b9888c51a21dde428008b0da233b6/)
-- [2016-08-31 14:10:06 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e86fe11e07d5adbbee2b4ce830d08c9bc690785c/)
-- [2016-08-30 15:09:50 +0200 |Sverre Stikbakke |notepad 2 kontekstmeny](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e3428ee9b992ad4b4c63150cd90082ff4438c704/)
-- [2016-08-29 20:48:05 +0200 |Sverre Stikbakke |uke 35 - versjon 1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7db537670965a51a0458bc09509907db36033630/)
-- [2016-08-26 17:31:59 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/788647b57ad94c8d821395fad701009cff770725/)
-- [2016-08-26 17:24:03 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/00e975ba3f5163125313ec3ad3e40c09c5bd76de/)
-- [2016-08-25 08:41:50 +0200 |Sverre Stikbakke |uke 34](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/25df4590e6012cc1e9dbd17b18691cd84ef63165/)
-- [2016-08-25 08:33:22 +0200 |Sverre Stikbakke |uke 33](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/bedbe9ab3e4da251301aa1557cbcee3ec55de637/)
-- [2016-08-24 11:41:27 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0cd6f867f7d328abc8c47f839077007d468fa74b/)
-- [2016-08-24 10:49:45 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/475cbae1a54935479c1d80b6ea49757f14d2f226/)
-- [2016-08-24 10:47:40 +0200 |Sverre Stikbakke |test](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ac57f62c9684975402f2fea630d590561718fd65/)
-- [2016-08-24 10:41:55 +0200 |Sverre Stikbakke |first commit](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fdf20611250ec244e201c7025c7f77ba47886317/)
+```BASH
+git clone https://github.com/sverres/NTNU-GEO2311.git
+```
+Det vil nå opprettes en undermappe under NTNU-mappen med en kopi av filene fra det sentrale repoet.
 
-## Under arbeid
+## Utforsking av innholdet i NTNU-GEO2311-repoet med kommandolinjeverktøy
 
-- [siste versjon](https://rawgit.com/sverres/NTNU-GEO2311-dok/master/)
+Skriv kommandoene nedenfor etter tur og observer hva som skjer - hvilken infomasjon du får fram. Les mer om disse kommandoene i Ryans Tutorials - se  link i ukeplanen.
+
+```BASH
+pwd
+ls
+```
+
+```BASH
+cd NTNU-GEO2311
+ls
+cd 2016
+ls
+cd uke35
+ls
+pwd
+```
+
+```BASH
+atom
+```
+
+Hvis alt har gått bra, skal du nå ha atom editor åpen med kodeeksemplene fra forelesning i uke 34 tilgjengelig. Ta gjerne en kikk på de filene.
+Du kan f.eks. forandre på zoom-nivå og tilpasse koordinatene i hello-script-initialize.htm-filen slik at kartet viser et sted du er interessert i.
+
+## Bonus-oppgave
+
+Hvis du har lyst til å lære litt mer om hva GIT er og kan brukes til, kan det være en god ide å gå igjennom live-demoen på [Try GIT](https://try.github.io/levels/1/challenges/1)
 
     </div>
     <div id="md2html">

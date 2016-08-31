@@ -13,16 +13,18 @@
 
 - [emmet](./emmet.html)
 - [emneplan](./emneplan.html)
+- [git](./git.html)
 - [litteratur](./litteratur.html)
 - [notepad2meny](./notepad2meny.html)
 - [programvare](./programvare.html)
 
 ## Denne versjonen
 
-- 2016-08-31 14:28:38 +0200 |Sverre Stikbakke |uke 35 v2
+- 2016-08-31 23:28:50 +0200 |Sverre Stikbakke |GIT
 
 ## Tidligere versjoner
 
+- [2016-08-31 14:28:39 +0200 |Sverre Stikbakke |uke 35 v2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9ab264abc22dbee79f30ad51b1e85e2a5dd30d42/)
 - [2016-08-31 14:14:25 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c2b7ec9a678b9888c51a21dde428008b0da233b6/)
 - [2016-08-31 14:10:06 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e86fe11e07d5adbbee2b4ce830d08c9bc690785c/)
 - [2016-08-30 15:09:50 +0200 |Sverre Stikbakke |notepad 2 kontekstmeny](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e3428ee9b992ad4b4c63150cd90082ff4438c704/)
