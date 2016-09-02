@@ -27,10 +27,11 @@
 
 ## Denne versjonen
 
-- 2016-09-02 12:02:26 +0200 |Sverre Stikbakke |Uke 35 med opptak
+- 2016-09-02 15:20:10 +0200 |Sverre Stikbakke |Rettet feil i instruksjoner for GIT og Notepad 2
 
 ## Tidligere versjoner
 
+- [2016-09-02 12:02:27 +0200 |Sverre Stikbakke |Uke 35 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/aa472cc847aacc8369f167a92dbe83b9287d1e43/)
 - [2016-08-31 23:28:51 +0200 |Sverre Stikbakke |GIT](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/039f2936e69feb389de17874cf7d225ad8676481/)
 - [2016-08-31 14:28:39 +0200 |Sverre Stikbakke |uke 35 v2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9ab264abc22dbee79f30ad51b1e85e2a5dd30d42/)
 - [2016-08-31 14:14:25 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c2b7ec9a678b9888c51a21dde428008b0da233b6/)

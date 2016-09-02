@@ -21,32 +21,33 @@ Denne uka skal vi laste ned filer fra NTNU-GEO2311-repoet ved å klone det.
 - høyreklikk i mappen og velg GIT Bash here. Det vil da åpnes et kommandovindu i den aktuelle mappen.
 - skriv inn denne kommandoen og trykk enter:
 
-```BASH
+```ini
 git clone https://github.com/sverres/NTNU-GEO2311.git
 ```
 Det vil nå opprettes en undermappe under NTNU-mappen med en kopi av filene fra det sentrale repoet.
 
 ## Utforsking av innholdet i NTNU-GEO2311-repoet med kommandolinjeverktøy
 
-Skriv kommandoene nedenfor etter tur og observer hva som skjer - hvilken infomasjon du får fram. Les mer om disse kommandoene i Ryans Tutorials - se  link i ukeplanen.
+Skriv kommandoene nedenfor etter tur og observer hva som skjer - hvilken informasjon du får fram. Trykk på enter mellom hver kommando. Les mer om disse kommandoene i Ryans Tutorials - se  link i ukeplanen.
 
-```BASH
+
+```ini
 pwd
 ls
 ```
 
-```BASH
+```ini
 cd NTNU-GEO2311
 ls
 cd 2016
 ls
-cd uke35
+cd uke-35
 ls
 pwd
 ```
 
-```BASH
-atom
+```ini
+atom . 
 ```
 
 Hvis alt har gått bra, skal du nå ha atom editor åpen med kodeeksemplene fra forelesning i uke 34 tilgjengelig. Ta gjerne en kikk på de filene.

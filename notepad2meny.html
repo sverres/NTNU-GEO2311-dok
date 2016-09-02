@@ -91,20 +91,7 @@ Kontektsmeny vil si en meny som er tilpasset situasjonen (konteksten) du er i. F
 ## Hvordan legge til Notepad2 som et valg i kontekstmenyen?
 
 - Notepad 2 mod må være installert
-- Kopier inn teksten nedenfor i en tom fil i Notepad 2 mod
-
-```
-Windows Registry Editor Version 5.00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Notepad2]
-@="&Notepad2"
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Notepad2\command]
-@="\"C:\\Program Files\\Notepad2\\notepad2.exe\" \"%1\" %*"
-```
-
-- lagre filen som notepad-meny.reg
-- klikk på filen og kjør notepad-meny.reg (du vil få en advarsel, men du kan kjøre denne filen)
+- Høyreklikk på [notepad-meny.reg](./docs/notepad-meny.reg) og lagre filen på egen PC. Åpne deretter mappen der du har lagret den og klikk på filen. Du vil få en advarsel, men du kan kjøre denne filen (Innholdet i filen kan du se [her](./docs/notepad-meny.txt) - dette er kommandoer som legger til et menypunkt i kontekstmenyen).
 - høyreklikk på noen ulike filtyper og sjekk at du har valget Notepad2 på kontekstmenyen (Det skal normalt vises på alle filtyper).
 
 Slik kan kontekstmenyen se ut:
