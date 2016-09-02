@@ -11,17 +11,23 @@
 
 ## Andre filer
 
+- [emmet](./emmet.html)
 - [emneplan](./emneplan.html)
+- [git](./git.html)
 - [litteratur](./litteratur.html)
 - [notepad2meny](./notepad2meny.html)
 - [programvare](./programvare.html)
 
 ## Denne versjonen
 
-- 2016-08-30 15:09:49 +0200 |Sverre Stikbakke |notepad 2 kontekstmeny
+- 2016-08-31 23:24:06 +0200 |Sverre Stikbakke |
 
 ## Tidligere versjoner
 
+- [2016-08-31 14:28:39 +0200 |Sverre Stikbakke |uke 35 v2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9ab264abc22dbee79f30ad51b1e85e2a5dd30d42/)
+- [2016-08-31 14:14:25 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c2b7ec9a678b9888c51a21dde428008b0da233b6/)
+- [2016-08-31 14:10:06 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e86fe11e07d5adbbee2b4ce830d08c9bc690785c/)
+- [2016-08-30 15:09:50 +0200 |Sverre Stikbakke |notepad 2 kontekstmeny](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e3428ee9b992ad4b4c63150cd90082ff4438c704/)
 - [2016-08-29 20:48:05 +0200 |Sverre Stikbakke |uke 35 - versjon 1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7db537670965a51a0458bc09509907db36033630/)
 - [2016-08-26 17:31:59 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/788647b57ad94c8d821395fad701009cff770725/)
 - [2016-08-26 17:24:03 +0200 |Sverre Stikbakke |Uke 34 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/00e975ba3f5163125313ec3ad3e40c09c5bd76de/)

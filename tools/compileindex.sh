@@ -7,22 +7,35 @@
 
 GITHUBUSER='sverres'
 
+INFOFILES='../info/*.md'
 PLANSFILES='../plans/*.md'
-NOTESFILES='../notes/*.md'
 PRESENTATIONSFILES='../presentations/*.md'
+RECORDINGSFILES='../recordings/*.md'
+NOTESFILES='../notes/*.md'
+
+
 
 INDEXFILE='../index/index.md'
 
 # use only if called from commitall.sh
 COMMITMSG="${1}"
 
-echo '# GEO2311-filer' > "${INDEXFILE}"
+echo '# GEO2311 Geografisk informasjonsbehandling Høst 2016' > "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 
-echo '## Ukeplaner' >> "${INDEXFILE}"
+echo '## Informasjon om emnet' >> "${INDEXFILE}"
 #
 # insert link to html files: [filename](url)
 #
+echo '' >> "${INDEXFILE}"
+for file in ${INFOFILES}
+do
+  echo "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
+   >> "${INDEXFILE}"
+done
+echo '' >> "${INDEXFILE}"
+
+echo '## Ukeplaner' >> "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 for file in ${PLANSFILES}
 do
@@ -40,7 +53,16 @@ do
 done
 echo '' >> "${INDEXFILE}"
 
-echo '## Andre filer' >> "${INDEXFILE}"
+echo '## Opptak' >> "${INDEXFILE}"
+echo '' >> "${INDEXFILE}"
+for file in ${RECORDINGSFILES}
+do
+  echo "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
+   >> "${INDEXFILE}"
+done
+echo '' >> "${INDEXFILE}"
+
+echo '## Notater m.m.' >> "${INDEXFILE}"
 echo '' >> "${INDEXFILE}"
 for file in ${NOTESFILES}
 do

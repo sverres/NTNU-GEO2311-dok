@@ -1,4 +1,10 @@
-# GEO2311-filer
+# GEO2311 Geografisk informasjonsbehandling Høst 2016
+
+## Informasjon om emnet
+
+- [emneplan](./emneplan.html)
+- [litteratur](./litteratur.html)
+- [programvare](./programvare.html)
 
 ## Ukeplaner
 
@@ -7,23 +13,25 @@
 
 ## Presentasjoner
 
-- [presentasjoner-uke-34](./presentasjoner-uke-34.html)
+- [*](./*.html)
 
-## Andre filer
+## Opptak
+
+- [uke-33-34](./uke-33-34.html)
+
+## Notater m.m.
 
 - [emmet](./emmet.html)
-- [emneplan](./emneplan.html)
 - [git](./git.html)
-- [litteratur](./litteratur.html)
 - [notepad2meny](./notepad2meny.html)
-- [programvare](./programvare.html)
 
 ## Denne versjonen
 
-- 2016-08-31 23:28:50 +0200 |Sverre Stikbakke |GIT
+- 2016-09-02 12:02:26 +0200 |Sverre Stikbakke |Uke 35 med opptak
 
 ## Tidligere versjoner
 
+- [2016-08-31 23:28:51 +0200 |Sverre Stikbakke |GIT](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/039f2936e69feb389de17874cf7d225ad8676481/)
 - [2016-08-31 14:28:39 +0200 |Sverre Stikbakke |uke 35 v2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9ab264abc22dbee79f30ad51b1e85e2a5dd30d42/)
 - [2016-08-31 14:14:25 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c2b7ec9a678b9888c51a21dde428008b0da233b6/)
 - [2016-08-31 14:10:06 +0200 |Sverre Stikbakke |Emmet installasjon](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e86fe11e07d5adbbee2b4ce830d08c9bc690785c/)

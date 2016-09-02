@@ -12,8 +12,10 @@ fi
 
 COMMITMSG="${1}"
 
+source ./makeinfo.sh
 source ./makeplans.sh
 source ./makeslides.sh
+source ./makerecordings.sh
 source ./makenotes.sh
 source ./makeindex.sh "${COMMITMSG}"
 cd ..
