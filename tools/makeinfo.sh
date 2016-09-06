@@ -7,7 +7,7 @@
 
 MDFILES='../info/*.md'
 TEMPLATE='notes.html'
-CSS='notes.css'
+CSS='ntnu-bb.css'
 
 source ./globals.sh
 source ./processmdfiles.sh

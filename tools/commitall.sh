@@ -6,7 +6,7 @@
 #
 
 if [ "${#}" -ne 1 ]; then
-    echo "usage: commitall.sh \"commit message\""
+    printf '%s\n' "usage: commitall.sh \"commit message\""
     exit 1
 fi
 

@@ -5,9 +5,9 @@
 # sverre.stikbakke@ntnu.no 18.04.2016
 #
 
-MDFILES='../recordings/*.md'
+MDFILES='../presentations/*.md'
 TEMPLATE='notes.html'
-CSS='notes.css'
+CSS='ntnu-bb.css'
 
 source ./globals.sh
 source ./processmdfiles.sh

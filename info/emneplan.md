@@ -1,4 +1,9 @@
-# GEO2311 Høst 2016
+# GEO2311/GEO2311F Geografisk informasjonsbehandling Høst 2016
+
+## Emnebeskrivelser
+
+- [GEO2311](http://www.ntnu.no/studier/emner/GEO2311/2016/1#tab=omEmnet)
+- [GEO2311F](http://www.ntnu.no/studier/emner/GEO2311F/2016/1#tab=omEmnet)
 
 ## Emneplan
 

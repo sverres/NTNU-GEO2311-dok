@@ -5,9 +5,9 @@
 # sverre.stikbakke@ntnu.no 18.04.2016
 #
 
-source ./makeinfo.sh
 source ./makeplans.sh
 source ./makeslides.sh
-source ./makerecordings.sh
 source ./makenotes.sh
+source ./makeinfo.sh
+source ./makepresentations.sh
 source ./makeindex.sh

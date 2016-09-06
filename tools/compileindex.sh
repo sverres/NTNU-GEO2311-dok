@@ -1,108 +1,79 @@
 #!/bin/bash
 #
-# make index-file with all markdown-files
+# make index-file with links to html versions of md files
+#
+# Links serve html files as html files straight from github via rawgit
+# - permalinks - per commit - via rawgit cdn
+# - master-link - not for heavy traffic - according to rawgit.com
 #
 # sverre.stikbakke@ntnu.no 19.04.2016
 #
 
-GITHUBUSER='sverres'
-
-INFOFILES='../info/*.md'
-PLANSFILES='../plans/*.md'
-PRESENTATIONSFILES='../presentations/*.md'
-RECORDINGSFILES='../recordings/*.md'
-NOTESFILES='../notes/*.md'
-
-
-
-INDEXFILE='../index/index.md'
-
-# use only if called from commitall.sh
+# used only if called from commitall.sh
 COMMITMSG="${1}"
 
-echo '# GEO2311 Geografisk informasjonsbehandling Høst 2016' > "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
-
-echo '## Informasjon om emnet' >> "${INDEXFILE}"
-#
-# insert link to html files: [filename](url)
-#
-echo '' >> "${INDEXFILE}"
-for file in ${INFOFILES}
-do
-  echo "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
-   >> "${INDEXFILE}"
-done
-echo '' >> "${INDEXFILE}"
-
-echo '## Ukeplaner' >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
-for file in ${PLANSFILES}
-do
-  echo "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
-   >> "${INDEXFILE}"
-done
-echo '' >> "${INDEXFILE}"
-
-echo '## Presentasjoner' >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
-for file in ${PRESENTATIONSFILES}
-do
-  echo "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
-   >> "${INDEXFILE}"
-done
-echo '' >> "${INDEXFILE}"
-
-echo '## Opptak' >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
-for file in ${RECORDINGSFILES}
-do
-  echo "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
-   >> "${INDEXFILE}"
-done
-echo '' >> "${INDEXFILE}"
-
-echo '## Notater m.m.' >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
-for file in ${NOTESFILES}
-do
-  echo "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
-   >> "${INDEXFILE}"
-done
-echo '' >> "${INDEXFILE}"
-
-# Make links to serve html files as html files straight from github
-# - permalinks - per commit
-# - master-link - do not use in production - according to rawgit.com
+GITHUBUSER='sverres'
 
 cd ..
 REPO="$(pwd)"
-cd tools
+cd tools || return
 
-echo '## Denne versjonen' >> "${INDEXFILE}"
-#
-# insert current date and time
-#
-echo '' >> "${INDEXFILE}"
-echo "- $(date +'%F %T %z') |$(git config --get user.name) |${COMMITMSG}"\
- >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
+INFO='../info/*.md'
+PLANS='../plans/*.md'
+PRESENTATIONS='../presentations/*.md'
+NOTES='../notes/*.md'
 
-echo '## Tidligere versjoner' >> "${INDEXFILE}"
+INDEXFILE='../index/index.md'
+
+make_entries() {
+  local directory
+  local header
+  local outfile
+
+  directory="${1}" || return
+  header="${2}" || return
+  outfile="${3}" || return
+
+  printf '%s\n' "${header}" >> "${outfile}"
+  for file in ${directory}; do
+    # md format for link: [filename](url)
+    printf '%s\n' "- [$(basename ${file} .md)](./$(basename ${file} .md).html)"\
+      >> "${outfile}"
+  done
+  printf '\n' >> "${outfile}"
+}
+
+
+printf '%s\n\n' '# GEO2311 Geografisk informasjonsbehandling Høst 2016'\
+  > "${INDEXFILE}"
+
+
+make_entries "${INFO}" '## Informasjon om emnet' "${INDEXFILE}"
+make_entries "${PLANS}" '## Ukeplaner' "${INDEXFILE}"
+make_entries "${PRESENTATIONS}" '## Presentasjoner og opptak' "${INDEXFILE}"
+make_entries "${NOTES}" '## Notater m.m.' "${INDEXFILE}"
+
+
+printf '%s\n' '## Denne versjonen' >> "${INDEXFILE}"
+printf '%s\n' "- $(date +'%F %T %z') |$(git config --get user.name) |"\
+  "${COMMITMSG}" >> "${INDEXFILE}"
+
+
+printf '%s\n\n' '## Tidligere versjoner' >> "${INDEXFILE}"
 #
 # from git log, insert from each commit:
 # - date and time (%ai)
 # - author  (%an)
 # - commit message (%s)
-# - SHA from each commit as part of url (%H) (to index.html)
+# - SHA from each commit as part of url (%H)
 #
-echo '' >> "${INDEXFILE}"
 git log --pretty=format:'- [%ai |%an |%s]'\
-"(https://cdn.rawgit.com/$GITHUBUSER/$(basename ${REPO})/%H/)" >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
+"(https://cdn.rawgit.com/$GITHUBUSER/$(basename ${REPO})/%H/)"\
+  >> "${INDEXFILE}"
+printf '%s\n\n' >> "${INDEXFILE}"
 
-echo '## Under arbeid' >> "${INDEXFILE}"
-echo '' >> "${INDEXFILE}"
-echo '- [siste versjon]'\
-"(https://rawgit.com/$GITHUBUSER/$(basename ${REPO})/master/)" >> "${INDEXFILE}"
+
+printf '%s\n' '## Under arbeid' >> "${INDEXFILE}"
+printf '%s\n\n\n' '- [siste versjon]'\
+"(https://rawgit.com/$GITHUBUSER/$(basename ${REPO})/master/)"\
+  >> "${INDEXFILE}"

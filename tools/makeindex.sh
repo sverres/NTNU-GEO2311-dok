@@ -6,8 +6,8 @@
 #
 
 MDFILES='../index/*.md'
-TEMPLATE='index.html'
-CSS='index.css'
+TEMPLATE='notes.html'
+CSS='ntnu-bb.css'
 
 source ./globals.sh
 source ./compileindex.sh

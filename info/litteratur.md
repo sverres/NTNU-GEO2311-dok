@@ -13,6 +13,11 @@
 
 - [Ryan's Tutorials - Linux tutorial](http://ryanstutorials.net/)
 
+## WMS
+
+- [WMS-veileder fra Norge Digitalt](https://www.geonorge.no/globalassets/geonorge2/veiledere/veileder-for-web-map-service-201008.pdf)
+- [WMS-spesifikasjonen fra OGC](http://portal.opengeospatial.org/files/?artifact_id=14416)
+
 ## Javascript
 
 - [Anbefalt lærebok hvis du vil lære litt ekstra: Haverbeke, Marijn, 2014:    Eloquent JavaScript: A Modern Introduction to Programming, 2nd Edition, ISBN-13: 978-1593275846](http://eloquentjavascript.net/)

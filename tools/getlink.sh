@@ -17,6 +17,6 @@ cd tools
 # - SHA from latest commit as part of url (%H) (to index.html)
 #
 git log -1 --pretty=format:\
-"https://cdn.rawgit.com/$GITHUBUSER/$(basename $REPO)/%H/" > "${OUTFILE}"
-echo "${OUTFILE}:" 
+  "https://cdn.rawgit.com/$GITHUBUSER/$(basename $REPO)/%H/" > "${OUTFILE}"
+printf '%s\n' "${OUTFILE}:"
 cat "${OUTFILE}"
