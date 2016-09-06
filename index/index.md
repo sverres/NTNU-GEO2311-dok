@@ -20,10 +20,11 @@
 - [README](./README.html)
 
 ## Denne versjonen
-- 2016-09-06 10:29:05 +0200 |Sverre Stikbakke |
-Uke 36
+- 2016-09-06 10:54:05 +0200 |Sverre Stikbakke |
+Uke 36 .
 ## Tidligere versjoner
 
+- [2016-09-06 10:29:05 +0200 |Sverre Stikbakke |Uke 36](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7dc4b683a0151b6541e3534a445326df8c324dbf/)
 - [2016-09-02 15:20:11 +0200 |Sverre Stikbakke |Rettet feil i instruksjoner for GIT og Notepad 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/caa604b1f2acf1c44bfdde5bbb1b181c814e06a6/)
 - [2016-09-02 12:02:27 +0200 |Sverre Stikbakke |Uke 35 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/aa472cc847aacc8369f167a92dbe83b9287d1e43/)
 - [2016-08-31 23:28:51 +0200 |Sverre Stikbakke |GIT](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/039f2936e69feb389de17874cf7d225ad8676481/)

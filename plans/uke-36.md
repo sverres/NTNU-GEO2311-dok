@@ -19,7 +19,7 @@
 ## Forelesning/fellesaktivitet på torsdag
 
 NB: *Rom E211* fram til lunsj.
-- Besøk fra Kartverket og orientering om #hack4no. Her er opplegget slik de beskriver det:
+- Besøk fra Kartverket og orientering om [#hack4no](http://www.hack4.no/). Her er opplegget slik de beskriver det:
 	- Hack4no og hvordan en student kan få mest mulig utbytte av det
 	- Gjennomgang av åpne datasett og tjenester, hovedvekt på kartdata
 	- Ideutvikling i plenum – de som vil kan pitche ideer, vi begynner å sette sammen lag
