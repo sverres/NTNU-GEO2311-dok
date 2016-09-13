@@ -3,7 +3,7 @@
 # "main loop" for mdpublish.sh:
 # Generates html files from markdown by replacing placeholders in
 # HTML template files with markdown file content and CSS code.
-# File names of markdown files is extracted and used as HTML title.
+# File names of markdown files are extracted and used as HTML titles.
 #
 # sverre.stikbakke@ntnu.no 11.09.2016
 #
@@ -43,35 +43,24 @@ insert_from_file() {
 }
 
 compose_html() {
-  local mdfiles=${1}
-  local template="${2}"
-  local css="${3}"
-
-  for srcfile in ${mdfiles}; do
-    cp  "${srcfile}" "${WORK}/temp.md"
-    modify_image_links "${WORK}/temp.md"
-
-    cp "${TEMPLATES}/${template}" "${WORK}/temp.html"
-
-    insert_title "${srcfile}" "${WORK}/temp.html" "${PLACEHOLDERTITLE}"
-    insert_from_file "${STYLES}/${css}" "${WORK}/temp.html" "${PLACEHOLDERCSS}"
-    insert_from_file "${WORK}/temp.md" "${WORK}/temp.html" "${PLACEHOLDERMD}"
-
-    mv "${WORK}/temp.html" "${HTMLOUTPUT}/$(basename "${srcfile}" .md).html"
-
-    printf "%s\n" "${HTMLOUTPUT}/$(basename "${srcfile}" .md).html"
-  done
-}
-
-collect_markdown_files() {
   local mdfiles="${1}"
   local template="${2}"
   local css="${3}"
 
-  #check if directory contains files
-  if [ "$(ls -A ${mdfiles})" ]; then
-    mkdir -p "${WORK}"
-    compose_html "${mdfiles}" "${template}" "${css}"
-    rm "${WORK}/temp.md"
-  fi
+  for mdfile in ${mdfiles}; do
+    # exit loop if directory is empty
+    test -f "${mdfile}" || continue
+    cp  "${mdfile}" "${WORK}/temp.md"
+    modify_image_links "${WORK}/temp.md"
+
+    cp "${TEMPLATES}/${template}" "${WORK}/temp.html"
+
+    insert_title "${mdfile}" "${WORK}/temp.html" "${PLACEHOLDERTITLE}"
+    insert_from_file "${STYLES}/${css}" "${WORK}/temp.html" "${PLACEHOLDERCSS}"
+    insert_from_file "${WORK}/temp.md" "${WORK}/temp.html" "${PLACEHOLDERMD}"
+
+    mv "${WORK}/temp.html" "${HTMLOUTPUT}/$(basename "${mdfile}" .md).html"
+
+    printf "%s\n" "${HTMLOUTPUT}/$(basename "${mdfile}" .md).html"
+  done
 }
