@@ -13,8 +13,8 @@ Denne uka skal vi sette sammen og vise det vi har lært om HTML og CSS ved å la
 
 - lese kapittel 8 i læreboka, bl.a. id og class
 - lese kapittel 15 i læreboka, om layout
-- hjemmeside-oppgave (kommer)
-- webkart-oppgave (kommer)
+- [hjemmeside-oppgave](./ukeoppgave-hjemmeside.html)
+- [webkart-oppgave](./ukeoppgave-wmskart.html)
 - lese om javascript og programmering - se ressurser
 - lese om norske datasett (kommer)
 

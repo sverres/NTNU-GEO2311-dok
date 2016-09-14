@@ -19,12 +19,15 @@
 - [git](./git.html)
 - [notepad2meny](./notepad2meny.html)
 - [README](./README.html)
+- [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
+- [ukeoppgave-wmskart](./ukeoppgave-wmskart.html)
 
 ## Denne versjonen
-- 2016-09-13 11:42:26 +0200 |Sverre Stikbakke |
-Uke 37
+- 2016-09-14 22:41:53 +0200 |Sverre Stikbakke |
+
 ## Tidligere versjoner
 
+- [2016-09-13 11:42:29 +0200 |Sverre Stikbakke |Uke 37](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/1adc581ccc1f7183927fb5443135f306c9760bd9/)
 - [2016-09-11 23:06:23 +0200 |Sverre Stikbakke |Uke 36 med opptak .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/114b9af63bcdade657dc79d43893c84c8c5c3172/)
 - [2016-09-09 10:02:57 +0200 |Sverre Stikbakke |Uke 36 med opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/1b20ac58c736ab78c71da2535227d33e88cd05ff/)
 - [2016-09-08 12:42:38 +0200 |Sverre Stikbakke |Uke 36 ..](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/1601c4f2a44b2eced85830d5e3533098b3e1c191/)

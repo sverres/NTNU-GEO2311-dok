@@ -43,6 +43,7 @@ INDEXFILE='../index/index.md'
 # directories with manually edited markdown
 INFO='../info/*.md'
 PLANS='../plans/*.md'
+ASSIGNMENTS='../assignments'
 PRESENTATIONS='../presentations/*.md'
 NOTES='../notes/*.md'
 SLIDES='../slides/*.md'
@@ -63,10 +64,10 @@ source ./compose.sh
 makeall() {
   compose_html "${INDEXFILE}" "${TEMPLATE}" "${CSS}"
   compose_html "${INFO}" "${TEMPLATE}" "${CSS}"
+  compose_html "${ASSIGNMENTS}" "${TEMPLATE}" "${CSS}"
   compose_html "${PLANS}" "${TEMPLATE}" "${CSS}"
   compose_html "${PRESENTATIONS}" "${TEMPLATE}" "${CSS}"
   compose_html "${NOTES}" "${TEMPLATE}" "${CSS}"
-
   compose_html "${SLIDES}" "${SLIDES_TEMPLATE}" "${SLIDES_CSS}"
 }
 

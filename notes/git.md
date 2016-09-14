@@ -1,4 +1,3 @@
-
 # GIT - distribuert versjonskontroll
 
 GIT er et verktøy for å holde styr på programkode etter hvert som en eller flere programutviklere gjør endringer i koden. Et sentralt begrep i GIT er repository, ofte omtalt som repo. Dette engelske ordet kan oversettes med **oppbevaringssted**.
