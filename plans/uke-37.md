@@ -20,11 +20,11 @@ Denne uka skal vi sette sammen og vise det vi har lært om HTML og CSS ved å la
 
 ## Forelesning/fellesaktivitet på torsdag
 
-- gruppearbeid om HTML- og CSS-teori (start 9:15)
+- [gruppearbeid om HTML- og CSS-teori](gruppearbeid_html_css_teori.html)
 - arbeid med hjemmeside-oppgave
 - arbeid med webkart-oppgave
 - forelesning om javascript og programmering (13:15)
-- presentasjon av oblig 1 
+- [presentasjon av oblig 1](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Om aktiviteter i uke 38
 

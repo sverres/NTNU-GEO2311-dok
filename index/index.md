@@ -17,16 +17,18 @@
 ## Notater m.m.
 - [emmet](./emmet.html)
 - [git](./git.html)
+- [gruppearbeid_html_css_teori](./gruppearbeid_html_css_teori.html)
 - [notepad2meny](./notepad2meny.html)
 - [README](./README.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
 - [ukeoppgave-wmskart](./ukeoppgave-wmskart.html)
 
 ## Denne versjonen
-- 2016-09-14 22:44:29 +0200 |Sverre Stikbakke |
-Uke 37 m/ oppgaver .
+- 2016-09-15 12:50:25 +0200 |Sverre Stikbakke |
+Uke 37-oblig1-foreløpig
 ## Tidligere versjoner
 
+- [2016-09-14 22:44:31 +0200 |Sverre Stikbakke |Uke 37 m/ oppgaver .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/3b54a8ff562cc9143e563d389ff2e06eb2e8aafa/)
 - [2016-09-14 22:43:56 +0200 |Sverre Stikbakke |Uke 37 m/ oppgaver](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/5a732c73af3a55300f9f3e049263caa9a5bd0534/)
 - [2016-09-13 11:42:29 +0200 |Sverre Stikbakke |Uke 37](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/1adc581ccc1f7183927fb5443135f306c9760bd9/)
 - [2016-09-11 23:06:23 +0200 |Sverre Stikbakke |Uke 36 med opptak .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/114b9af63bcdade657dc79d43893c84c8c5c3172/)
