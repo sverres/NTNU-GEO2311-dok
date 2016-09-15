@@ -21,6 +21,8 @@ git fetch https://github.com/sverres/NTNU-GEO2311.git uke-37
 
 Filene er foreløpig ikke synlige. Men de blir synlige når du bytter over til branch "uke-37":
 
+**Jeg beklager, men koden nedenfor virker ikke som tenkt. Jeg ser på saken og oppdaterer når jeg finner ut av det.**
+
 ```ini
 git checkout uke-37
 ```
