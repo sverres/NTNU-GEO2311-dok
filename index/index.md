@@ -24,10 +24,11 @@
 - [ukeoppgave-wmskart](./ukeoppgave-wmskart.html)
 
 ## Denne versjonen
-- 2016-09-15 15:32:08 +0200 |Sverre Stikbakke |
-Uke 37 lysark
+- 2016-09-16 09:11:42 +0200 |Sverre Stikbakke |
+Uke 37 opptak
 ## Tidligere versjoner
 
+- [2016-09-15 15:32:12 +0200 |Sverre Stikbakke |Uke 37 lysark](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/b3b571bcc66a5564a6b14eab44719925d2f7e54b/)
 - [2016-09-15 12:50:27 +0200 |Sverre Stikbakke |Uke 37-oblig1-foreløpig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/01f8c890b0f0e505c2808352804ad2263c397355/)
 - [2016-09-14 22:44:31 +0200 |Sverre Stikbakke |Uke 37 m/ oppgaver .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/3b54a8ff562cc9143e563d389ff2e06eb2e8aafa/)
 - [2016-09-14 22:43:56 +0200 |Sverre Stikbakke |Uke 37 m/ oppgaver](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/5a732c73af3a55300f9f3e049263caa9a5bd0534/)
