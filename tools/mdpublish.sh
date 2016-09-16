@@ -43,7 +43,7 @@ INDEXFILE='../index/index.md'
 # directories with manually edited markdown
 INFO='../info/*.md'
 PLANS='../plans/*.md'
-ASSIGNMENTS='../assignments'
+ASSIGNMENTS='../assignments/*.md'
 PRESENTATIONS='../presentations/*.md'
 NOTES='../notes/*.md'
 SLIDES='../slides/*.md'

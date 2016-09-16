@@ -37,7 +37,8 @@ printf '%s\n\n' '# GEO2311 Geografisk informasjonsbehandling Høst 2016'\
 make_entries "${INFO}" '## Informasjon om emnet' "${INDEXFILE}"
 make_entries "${PLANS}" '## Ukeplaner' "${INDEXFILE}"
 make_entries "${PRESENTATIONS}" '## Presentasjoner og opptak' "${INDEXFILE}"
-make_entries "${NOTES}" '## Notater m.m.' "${INDEXFILE}"
+make_entries "${NOTES}" '## Ukeoppgaver, notater m.m.' "${INDEXFILE}"
+make_entries "${ASSIGNMENTS}" '## Obligatoriske oppgaver' "${INDEXFILE}"
 
 
 printf '%s\n' '## Denne versjonen' >> "${INDEXFILE}"
