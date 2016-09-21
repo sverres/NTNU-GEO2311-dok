@@ -28,10 +28,11 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-21 11:05:49 +0200 |Sverre Stikbakke |
-Uke 38 m/ Test deg selv
+- 2016-09-21 11:06:49 +0200 |Sverre Stikbakke |
+Uke 38 m/ Test deg selv .
 ## Tidligere versjoner
 
+- [2016-09-21 11:06:00 +0200 |Sverre Stikbakke |Uke 38 m/ Test deg selv](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/55d0468f5e81ad87510ce3e249d4a5bfed239aa5/)
 - [2016-09-16 15:14:50 +0200 |Sverre Stikbakke |Oblig 1 oppdatert ang. grupper](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/688827e0438b6691803088e6ba755d1b4cb81b58/)
 - [2016-09-16 09:11:46 +0200 |Sverre Stikbakke |Uke 37 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ba17ca787b11ef174c0446d2d31dceb1bc4cb99a/)
 - [2016-09-15 15:32:12 +0200 |Sverre Stikbakke |Uke 37 lysark](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/b3b571bcc66a5564a6b14eab44719925d2f7e54b/)
