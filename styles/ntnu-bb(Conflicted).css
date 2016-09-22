@@ -5,14 +5,8 @@ body {
   font-family: 'Droid Serif';
   margin-left: 3%;
   width: 80%;
-  background-color: #ebe7dc;
-  max-width: 850px;
-}
-#htmlcontent {
-  background-color: white;
-  padding-left: 10px;
-  padding-bottom: 50px;
-  box-shadow: 7px 7px 4px grey;
+  //background-color: #f4f4f4;
+  max-width: 700px;
 }
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
@@ -21,16 +15,10 @@ h1, h2, h3 {
 h1  {
   background-color: #01509f;
   color: white;
-  padding: 10px 0px 40px 10px;
-  position: relative;
-  left:-10px;
-  width: 100%;
+  padding: 15px;
 }
-p {    
-  margin-right:10px;}
 pre {
   font-family: 'Ubuntu Mono';
-  margin-right: 10px;
 }
 #mdcontent {
   display: none;
@@ -57,8 +45,6 @@ table {
     border-spacing: 0;
     empty-cells: show;
     border: 1px solid #cbcbcb;
-    margin-left: 0px;
-    margin-right:10px;
 }
 table caption {
     color: #000;

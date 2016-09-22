@@ -19,6 +19,7 @@
 - [emmet](./emmet.html)
 - [git](./git.html)
 - [gruppearbeid_html_css_teori](./gruppearbeid_html_css_teori.html)
+- [hjemmeside-NTNU](./hjemmeside-NTNU.html)
 - [notepad2meny](./notepad2meny.html)
 - [README](./README.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
@@ -28,10 +29,11 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-21 11:06:49 +0200 |Sverre Stikbakke |
-Uke 38 m/ Test deg selv .
+- 2016-09-22 09:44:32 +0200 | |
+Hjemmeside-NTNU
 ## Tidligere versjoner
 
+- [2016-09-21 11:07:00 +0200 |Sverre Stikbakke |Uke 38 m/ Test deg selv .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/97862f78c0a34c07ab754767980c9a567de18659/)
 - [2016-09-21 11:06:00 +0200 |Sverre Stikbakke |Uke 38 m/ Test deg selv](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/55d0468f5e81ad87510ce3e249d4a5bfed239aa5/)
 - [2016-09-16 15:14:50 +0200 |Sverre Stikbakke |Oblig 1 oppdatert ang. grupper](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/688827e0438b6691803088e6ba755d1b4cb81b58/)
 - [2016-09-16 09:11:46 +0200 |Sverre Stikbakke |Uke 37 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ba17ca787b11ef174c0446d2d31dceb1bc4cb99a/)

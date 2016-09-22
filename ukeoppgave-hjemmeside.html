@@ -13,8 +13,14 @@ body {
   font-family: 'Droid Serif';
   margin-left: 3%;
   width: 80%;
-  //background-color: #f4f4f4;
-  max-width: 700px;
+  background-color: #ebe7dc;
+  max-width: 850px;
+}
+#htmlcontent {
+  background-color: white;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  box-shadow: 7px 7px 4px grey;
 }
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
@@ -23,10 +29,16 @@ h1, h2, h3 {
 h1  {
   background-color: #01509f;
   color: white;
-  padding: 15px;
+  padding: 10px 0px 40px 10px;
+  position: relative;
+  left:-10px;
+  width: 100%;
 }
+p {    
+  margin-right:10px;}
 pre {
   font-family: 'Ubuntu Mono';
+  margin-right: 10px;
 }
 #mdcontent {
   display: none;
@@ -53,6 +65,8 @@ table {
     border-spacing: 0;
     empty-cells: show;
     border: 1px solid #cbcbcb;
+    margin-left: 0px;
+    margin-right:10px;
 }
 table caption {
     color: #000;
@@ -126,7 +140,10 @@ Hvis du rekker det, kan du prøve å legge ut din hjemmeside på [folk.ntnu.no](
 - legge ut filer på din egen [NTNU-hjemmeside, folk.ntnu.no](https://innsida.ntnu.no/wiki/-/wiki/Norsk/Lag+din+egen+nettside)
 
     </div>
-    <div id="md2html">
+    <div id="htmlcontent">
+    
+        <!-- generated html -->
+
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/7.0.1/markdown-it.min.js">
     </script>
@@ -136,7 +153,7 @@ Hvis du rekker det, kan du prøve å legge ut din hjemmeside på [folk.ntnu.no](
         var md = markdownit();
         md.use(markdownitLinkTarget);
         var markdown = document.getElementById('mdcontent');
-        document.getElementById("md2html").innerHTML = md.render(markdown.innerHTML);
+        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>

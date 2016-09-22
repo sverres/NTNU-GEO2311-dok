@@ -16,10 +16,7 @@
         @@markdown
 
     </div>
-    <div id="htmlcontent">
-    
-        <!-- generated html -->
-
+    <div id="md2html">
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/7.0.1/markdown-it.min.js">
     </script>
@@ -29,7 +26,7 @@
         var md = markdownit();
         md.use(markdownitLinkTarget);
         var markdown = document.getElementById('mdcontent');
-        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
+        document.getElementById("md2html").innerHTML = md.render(markdown.innerHTML);
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
