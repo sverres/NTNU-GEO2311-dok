@@ -29,10 +29,11 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-22 15:11:11 +0200 |Sverre Stikbakke |
-Ressurser på oblig
+- 2016-09-22 22:55:13 +0200 |Sverre Stikbakke |
+Ny layout
 ## Tidligere versjoner
 
+- [2016-09-22 15:11:17 +0200 |Sverre Stikbakke |Ressurser på oblig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-DOK/c080a80b8d1603cab7a8acca8ee8f1c994f886a8/)
 - [2016-09-22 15:09:28 +0200 |Sverre Stikbakke |Ressurser oblig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-DOK/93f46d2f383bd650f006b9457a1cf2949f9fd2ab/)
 - [2016-09-22 12:56:29 +0200 |Sverre Stikbakke |Ressurser på oblig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-DOK/f8fcc0e632e4f1dc8b3ac8fd3971d565586c94ff/)
 - [2016-09-22 09:44:44 +0200 |Sverre Stikbakke |Hjemmeside-NTNU](https://cdn.rawgit.com/sverres/NTNU-GEO2311-DOK/268b9146a8915af22a63d00fe0f4506d6ac02ebc/)

@@ -3,20 +3,32 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 body {
   font-family: 'Droid Serif';
-  margin-left: 3%;
+  margin-left: 10%;
   width: 80%;
-  //background-color: #f4f4f4;
-  max-width: 700px;
+  background-color: #f2efe7;
+  max-width: 650px;
+}
+html, body {
+  overflow-x: initial;
+}
+#htmlcontent {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 h1  {
-  background-color: #01509f;
+  background-color: rgba(0, 80, 158, 0.6);
   color: white;
-  padding: 15px;
+  margin: 0 -9999rem 1rem -9999rem;
+  /* add back negative margin value */
+  padding: 1rem 9999rem;
 }
+
 pre {
   font-family: 'Ubuntu Mono';
 }
