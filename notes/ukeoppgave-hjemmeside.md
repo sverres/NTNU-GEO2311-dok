@@ -13,7 +13,7 @@ Lag en personlig hjemmeside som inneholder
 - en tabell med timeplanen din
 - en liste med linker som er relevante for deg som student
 
-Tenk på hver av disse tre elentene som bokser som kan gis rammer, farge og annet utseende hver for seg. Test ut noen muligheter:
+Tenk på hver av disse tre elementene som bokser som kan gis rammer, farge og annet utseende hver for seg. Test ut noen muligheter:
 
 - fast plasserte bokser eller bokser som flyter rundt avhengig av størrelsen på nettleservinduet
 - fast bredde, eller relativ bredde (prosentandel av vinduet)

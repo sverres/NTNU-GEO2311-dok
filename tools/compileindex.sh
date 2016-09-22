@@ -43,7 +43,7 @@ make_entries "${ASSIGNMENTS}" '## Obligatoriske oppgaver' "${INDEXFILE}"
 
 printf '%s\n' '## Denne versjonen' >> "${INDEXFILE}"
 printf '%s\n' "- $(date +'%F %T %z') |$(git config --get user.name) |"\
- "${COMMITMSG}" >> "${INDEXFILE}"
+"${COMMITMSG}" >> "${INDEXFILE}"
 
 
 printf '%s\n\n' '## Tidligere versjoner' >> "${INDEXFILE}"
