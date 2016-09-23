@@ -27,7 +27,7 @@ På hver test er det 20 oppgaver. Hvis du svarer feil på enkelte av oppgavene f
 
 Oppgavene kommer fra boka [A Smarter Way to Learn JavaScript](http://www.asmarterwaytolearn.com/index.html). Du må registrere deg for å få tilgang (tror jeg).
 
-- [alerts](http://www.asmarterwaytolearn.com/js/1.html)
+- [Alerts](http://www.asmarterwaytolearn.com/js/1.html)
 - [Variables for Strings](http://www.asmarterwaytolearn.com/js/2.html)
 - [Variables for Numbers](http://www.asmarterwaytolearn.com/js/3.html)
 - [Variable Names Legal and Illegal](http://www.asmarterwaytolearn.com/js/4.html)

@@ -22,8 +22,8 @@ h1, h2, h3 {
   margin-bottom: 1rem;
 }
 h1  {
-  background-color: #6c91b9;
-  color: white;
+  background-color: rgb(245, 128, 37);
+  //color: white;
   margin: 0 -9999rem 1rem -9999rem;
   /* add back negative margin value */
   padding: 1rem 9999rem;
