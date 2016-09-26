@@ -7,12 +7,7 @@
 	- CSS-tips
 	- hjemmeside-tips
 	- Chrome-tips
-- Demo etc:
-	- Etablere hjemmeside
-	- Chrome utviklerverktøy
-	- getcapabilities
-	- kodeeksempler
-	- Google Maps
+
 
 ## Forelesninger
 

@@ -19,7 +19,6 @@
 - [emmet](./emmet.html)
 - [git](./git.html)
 - [gruppearbeid_html_css_teori](./gruppearbeid_html_css_teori.html)
-- [hjemmeside-NTNU(Conflicted)](./hjemmeside-NTNU(Conflicted).html)
 - [hjemmeside-NTNU](./hjemmeside-NTNU.html)
 - [notepad2meny](./notepad2meny.html)
 - [README](./README.html)
@@ -30,7 +29,7 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-23 08:13:35 +0200 | |
+- 2016-09-23 09:48:44 +0200 | |
 ## Tidligere versjoner
 
 - [2016-09-22 23:15:50 +0200 |Sverre Stikbakke |Ny layout .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/25cbdc5e3cbd5b67a78964634ec8ae719140445f/)
