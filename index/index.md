@@ -30,9 +30,10 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-27 08:52:07 +0200 | |Uke 39
+- 2016-09-27 08:55:07 +0200 | |Uke 39
 ## Tidligere versjoner
 
+- [2016-09-27 08:52:22 +0200 |Sverre Stikbakke |Uke 39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/f7fbe3a9e0439765bc924cc078e2e3f16575db84/)
 - [2016-09-26 09:21:30 +0200 |Sverre Stikbakke |Ukeoppgave WMS-kart oppdatert](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/657feadd037690b6e0e1dcee7c37f1b24ab3f444/)
 - [2016-09-23 09:49:39 +0200 |Sverre Stikbakke |Oblig 1 komplett](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/be0221b96fd5cdb0333c50c73e7e2ea29c278bc1/)
 - [2016-09-22 23:15:50 +0200 |Sverre Stikbakke |Ny layout .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/25cbdc5e3cbd5b67a78964634ec8ae719140445f/)

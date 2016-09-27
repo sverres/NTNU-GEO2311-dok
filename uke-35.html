@@ -11,34 +11,34 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 body {
   font-family: 'Droid Serif';
-  margin-left: 3%;
+  margin-left: 10%;
   width: 80%;
-  background-color: #ebe7dc;
-  max-width: 850px;
+  background-color: #f7f5f0;
+  max-width: 680px;
+}
+html, body {
+  overflow-x: initial;
 }
 #htmlcontent {
-  background-color: white;
-  padding-left: 10px;
-  padding-bottom: 50px;
-  box-shadow: 7px 7px 4px grey;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 h1  {
-  background-color: #01509f;
+  background-color: #6c91b9;
   color: white;
-  padding: 10px 0px 40px 10px;
-  position: relative;
-  left:-10px;
-  width: 100%;
+  margin: 0 -9999rem 1rem -9999rem;
+  /* add back negative margin value */
+  padding: 1rem 9999rem;
 }
-p {    
-  margin-right:10px;}
+
 pre {
   font-family: 'Ubuntu Mono';
-  margin-right: 10px;
 }
 #mdcontent {
   display: none;
@@ -65,8 +65,6 @@ table {
     border-spacing: 0;
     empty-cells: show;
     border: 1px solid #cbcbcb;
-    margin-left: 0px;
-    margin-right:10px;
 }
 table caption {
     color: #000;
