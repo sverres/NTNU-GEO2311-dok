@@ -1,5 +1,7 @@
 # GIT - distribuert versjonskontroll
 
+- *(Oppdatert 29.06.16 - ang. hvordan filer åpnes i Atom)*
+
 GIT er et verktøy for å holde styr på programkode etter hvert som en eller flere programutviklere gjør endringer i koden. Et sentralt begrep i GIT er repository, ofte omtalt som repo. Dette engelske ordet kan oversettes med **oppbevaringssted**.
 
 Som emneansvarlig i GEO2311 administrerer jeg et to sentrale repos, der ett er for websidene som presenterer faginnholdet med ukeplaner, emneplan og oppgavetekster. Det andre er for kodeeksempler som skal brukes videre i øvinger.
@@ -45,11 +47,9 @@ ls
 pwd
 ```
 
-```ini
-atom . 
-```
+Hvis alt har gått bra kan du nå åpne en av filene i Atom ved å høyreklikke på den og velge `Open width - Atom`.
+Alle filene skal være tilgjengelige i "venstre-menyen" i Atom (`Tree View`). De ble vist på forelesningen i uke 34.
 
-Hvis alt har gått bra, skal du nå ha atom editor åpen med kodeeksemplene fra forelesning i uke 34 tilgjengelig. Ta gjerne en kikk på de filene.
 Du kan f.eks. forandre på zoom-nivå og tilpasse koordinatene i hello-script-initialize.htm-filen slik at kartet viser et sted du er interessert i.
 
 ## Bonus-oppgave

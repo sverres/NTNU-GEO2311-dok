@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ukeoppgave-wmskart</title>
+    <title>uke-39</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
     <style>
@@ -105,72 +105,52 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# Ukeoppgave - WMS-kart
+# GEO2311 - Høst 2016 - uke 39
 
-- *(Oppdatert 26.09.16 med endrede git-kommandoer. Jeg håper det virker denne gangen.)*
 
 ## Målsetting
 
-- laste ned nye filer fra github
-- lage eget WMS-kart
+Denne uka handler det om webkart, og vi skal høre om hvordan Google Maps tok verden med storm i 2005. Google Maps API er fortsatt i front innen webkart. Javascript-teorien om datastrukturer, arrays og objekter, gir nødvendig bakgrunn for å kunne forstå hvordan Google Maps API skal brukes.
 
-## Oppgave
+- Lære om datastrukturer i javascript - arrays og objekter
+- Lære om Google Maps og webkart-historikk
+- Lære om projeksjonen som Google Maps bruker
 
-Denne oppgaven forutsetter at du har gjort [git-oppgaven](./git.html) fra uke 35.
+## Aktiviteter
 
-Gå til mappen du lagde ved hjelp av GIT (c:\NTNU\NTNU-GEO2311).
-Høyreklikk i mappen og velg "GIT Bash here".
+- Lese i Eloquent Javascript, Kapittel 4. Data Structures: Objects and Arrays, fram til "Mutability" 
+- [javascript-kurset på Codeacademy - Del 6 - Data Structures](https://www.codecademy.com/learn/javascript)
 
-I repoet NTNU-GEO2311 har jeg nå opprettet en ny "tråd", i GIT-terminologi kalt "branch". 
+## Forelesning/fellesaktivitet på torsdag
 
-Først nullstiller vi ved å gi en kommando som setter GIT til master-branch:
+- Fokus på praktiske ferdigheter for Oblig 1 (fra 9:15)
+  - GIT-demo om nedlasting av filer (GIT-øvingene er oppdatert)
+  - Oppretting av egne hjemmesider på folk.ntnu.no, se [hjemmeside-NTNU](hjemmeside-NTNU.html)
+  - WMS-tjenester og tolking av getcapabilities-resultater
+  - Chrome developer tools
+  - Google Maps API
 
-```ini
-git checkout master
-```
+- Forelesning Google Maps og Web Mercator-projeksjonen (fra 13:15)
 
-Ved å gi denne kommandoen i Bash GIT-vinduet vil du oppdatere ditt lokale GIT-repo (ligger i en skjult mappe, .git under c:\NTNU\NTNU-GEO2311)
+## Ressurser
 
-```ini
-git fetch origin
-```
+### Javascript
 
-Filene ligger foreløpig skjult i ditt lokale GIT-repo. Med kommandoen nedenfor vil du
-1. opprette en lokal branch, `uke-37`
-2. gjøre denne aktiv, og dermed pakke ut filene fra lokalt repo
+- [Eloquent JavaScript - Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
 
-```ini
-git checkout -b uke-37 origin/uke-37
-```
+### Webkart
+- [Kart på nett. Hvem, hva, hvordan?](http://www.kartogplan.no/Artikler/KP3-2014/Kart%20pa%20nett%20Hvem%20hva%20hvordan.pdf)
 
-Hvis branch `uke-37` er opprettet fra før vil du få feilmelding på denne kommandoen. Da kan du i stedet prøve med denne kommandoen:
+### Google Maps API
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/)
+- [Google Maps Getting Started](https://developers.google.com/maps/documentation/javascript/tutorial)
+- [Google Maps Shapes](https://developers.google.com/maps/documentation/javascript/shapes)
 
-```ini
-git checkout uke-37
-```
+### Projeksjoner
+- [Web Mercator: the de facto standard, the controversy, and the opportunity](http://www.gogeomatics.ca/magazine/web-mercator-the-de-facto-standard-the-controversy-and-the-opportunity.htm)
+- [Implications of Web Mercator and Its Use in
+Online Mapping](http://cegis.usgs.gov/projection/pdf/Battersby_Implications%20of%20Web%20Mecator%20and%20Its%20Use%20in%20Online%20Mapping.pdf)
 
-Sjekk at mappen og filene er synlige nå.
-
-
-### Alternativ metode for å laste ned filene uten bruk av GIT-kommandoer
-
-Filene kan lastes ned herfra: [https://github.com/sverres/NTNU-GEO2311/tree/uke-37/2016/uke-37](https://github.com/sverres/NTNU-GEO2311/tree/uke-37/2016/uke-37) ved å:
-- først enkelt-klikke på hver enkelt av filene
-- trykke på raw-knappen
-- høyreklikke og velge «save as» e.l.
-***
-
-
-En av filene er wmskart.html. Den viser et kart over Gjøvik sentrum.
-Oppgaven videre går ut på å forandre på koordinatene i BBOX-parameteret i 
-denne filen slik at du får et kart over ditt hjemsted.
-
-Bruk [norgeskart.no](https://norgeskart.no) for å finne koordinatene dine
-(klikk i kartet, velg deretter i-verktøyet fra den blå sirkelen). Du trenger koordinatparene i UTM32-projeksjonen for nedre venstre og øvre høyre hjørne for kartutsnittet du skal ha. 
-
-Hvis du først finner et punkt som kan være nedre venstre hjørne, kan du deretter legge til f.eks. 500 på både x- og y-koordinatene slik at du får et rektangel på 500x500 meter.
-
-Lykke til!
 
     </div>
     <div id="htmlcontent">

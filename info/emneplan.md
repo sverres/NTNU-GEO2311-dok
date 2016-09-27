@@ -9,6 +9,8 @@
 
 Uke |Tema |Kommentar
 :---|:---|:---
+34  | Intro, verktøy, HTML
+35  | CSS
 36  |Norske datasett, WMS Intro |Kartverket kommer |
 37  |Javascript, Open Layers | |
 38  |Idélab-24 |Onsdag til torsdag for 2. geo

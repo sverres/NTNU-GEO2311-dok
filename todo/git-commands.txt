@@ -1,0 +1,17 @@
+it fetch origin
+git checkout -b uke-37 origin/uke-37
+
+
+git fetch origin
+git checkout -b uke-38 origin/uke-38
+
+git fetch origin
+git checkout -b uke-41 origin/uke-41
+
+
+
+git fetch
+git checkout -b uke-42 origin/uke-42
+
+
+git checkout -b uke-43 origin/uke-43

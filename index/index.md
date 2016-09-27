@@ -11,6 +11,7 @@
 - [uke-36](./uke-36.html)
 - [uke-37](./uke-37.html)
 - [uke-38](./uke-38.html)
+- [uke-39](./uke-39.html)
 
 ## Presentasjoner og opptak
 - [uke-34-37](./uke-34-37.html)
@@ -29,9 +30,10 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-26 09:21:18 +0200 | |Ukeoppgave WMS-kart oppdatert
+- 2016-09-27 08:52:07 +0200 | |Uke 39
 ## Tidligere versjoner
 
+- [2016-09-26 09:21:30 +0200 |Sverre Stikbakke |Ukeoppgave WMS-kart oppdatert](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/657feadd037690b6e0e1dcee7c37f1b24ab3f444/)
 - [2016-09-23 09:49:39 +0200 |Sverre Stikbakke |Oblig 1 komplett](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/be0221b96fd5cdb0333c50c73e7e2ea29c278bc1/)
 - [2016-09-22 23:15:50 +0200 |Sverre Stikbakke |Ny layout .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/25cbdc5e3cbd5b67a78964634ec8ae719140445f/)
 - [2016-09-22 22:55:19 +0200 |Sverre Stikbakke |Ny layout](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/cb0d81d52f9645eb9147f98f732418a84a2fb92d/)
