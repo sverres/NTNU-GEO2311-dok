@@ -13,13 +13,14 @@ Denne uka handler det om webkart, og vi skal høre om hvordan Google Maps tok ve
 
 - Lese i Eloquent Javascript, Kapittel 4. Data Structures: Objects and Arrays, fram til "Mutability" 
 - [javascript-kurset på Codeacademy - Del 6 - Data Structures](https://www.codecademy.com/learn/javascript)
+- [Ukeoppgave WMS-kall](ukeoppgave-WMS-kall.html)
 
 ## Forelesning/fellesaktivitet på torsdag
 
 - Fokus på praktiske ferdigheter for Oblig 1 (fra 9:15)
   - GIT-demo om nedlasting av filer (GIT-øvingene er oppdatert)
   - Oppretting av egne hjemmesider på folk.ntnu.no, se [hjemmeside-NTNU](hjemmeside-NTNU.html)
-  - WMS-tjenester og tolking av getcapabilities-resultater
+  - WMS-tjenester og tolking av getcapabilities-resultater [lysark m/2015-opptak](https://slides.com/sverres/geo2311-wms-kall/live#/)
   - Chrome developer tools
   - Google Maps API
 

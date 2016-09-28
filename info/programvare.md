@@ -6,6 +6,8 @@ Programvare |Kommentar|Brukes til
 [Notepad++](https://notepad-plus-plus.org/) ||tekstredigering (visning av XML-filer)
 [Atom](https://atom.io/) |tillegg: Emmet|tekstredigering (programkode)
 [GIT Bash](https://git-scm.com/) |fjern haken ved "GIT GUI here" |filhåndtering, versjonskontroll, m.m.
+[Chrome nettleser](https://www.google.com/chrome/browser/desktop/index.html)||For test og utvikling av websider
+---|---|---|---
 [ArcGIS 10.4](https://software.ntnu.no/) |med alle extensions |GIS-program
 [OpenGeoSuite 4.8](http://boundlessgeo.com/products/) |ikke GeoWebCache, GeoServer Extensions, Dev Tools |PostGIS geografisk database
 [QGIS](http://boundlessgeo.com/products/qgis/) ||GIS-program

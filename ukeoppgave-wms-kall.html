@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>uke-39</title>
+    <title>ukeoppgave-wms-kall</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
     <style>
@@ -103,53 +103,64 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO2311 - Høst 2016 - uke 39
+# Ukeoppgave - WMS-kall
 
+- *(Vi prøver igjen med GIT-kommandoer. Jeg håper disse virker. Gi beskjed hvis de ikke gjør det.)*
 
 ## Målsetting
 
-Denne uka handler det om webkart, og vi skal høre om hvordan Google Maps tok verden med storm i 2005. Google Maps API er fortsatt i front innen webkart. Javascript-teorien om datastrukturer, arrays og objekter, gir nødvendig bakgrunn for å kunne forstå hvordan Google Maps API skal brukes.
+- laste ned nye filer fra github
+- prøv ut WMS-kall fra nedlastet fil
 
-- Lære om datastrukturer i javascript - arrays og objekter
-- Lære om Google Maps og webkart-historikk
-- Lære om projeksjonen som Google Maps bruker
+## Oppgave
 
-## Aktiviteter
+Denne oppgaven forutsetter at du har gjort [git-oppgaven](./git.html) fra uke 35.
 
-- Lese i Eloquent Javascript, Kapittel 4. Data Structures: Objects and Arrays, fram til "Mutability" 
-- [javascript-kurset på Codeacademy - Del 6 - Data Structures](https://www.codecademy.com/learn/javascript)
-- [Ukeoppgave WMS-kall](ukeoppgave-WMS-kall.html)
+Gå til mappen du lagde ved hjelp av GIT (c:\NTNU\NTNU-GEO2311).
+Høyreklikk i mappen og velg "GIT Bash here".
 
-## Forelesning/fellesaktivitet på torsdag
+I repoet NTNU-GEO2311 har jeg nå opprettet en ny "tråd", i GIT-terminologi kalt "branch". 
 
-- Fokus på praktiske ferdigheter for Oblig 1 (fra 9:15)
-  - GIT-demo om nedlasting av filer (GIT-øvingene er oppdatert)
-  - Oppretting av egne hjemmesider på folk.ntnu.no, se [hjemmeside-NTNU](hjemmeside-NTNU.html)
-  - WMS-tjenester og tolking av getcapabilities-resultater [lysark m/2015-opptak](https://slides.com/sverres/geo2311-wms-kall/live#/)
-  - Chrome developer tools
-  - Google Maps API
+Først nullstiller vi ved å gi en kommando som setter GIT til master-branch:
 
-- Forelesning Google Maps og Web Mercator-projeksjonen (fra 13:15)
+```ini
+git checkout master
+```
 
-## Ressurser
+Ved å gi denne kommandoen i Bash GIT-vinduet vil du oppdatere ditt lokale GIT-repo (ligger i en skjult mappe, .git under c:\NTNU\NTNU-GEO2311)
 
-### Javascript
+```ini
+git fetch origin
+```
 
-- [Eloquent JavaScript - Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
+Filene ligger foreløpig skjult i ditt lokale GIT-repo. Med kommandoen nedenfor vil du
+1. opprette en lokal branch, `uke-39`
+2. gjøre denne aktiv, og dermed pakke ut filene fra lokalt repo
 
-### Webkart
-- [Kart på nett. Hvem, hva, hvordan?](http://www.kartogplan.no/Artikler/KP3-2014/Kart%20pa%20nett%20Hvem%20hva%20hvordan.pdf)
+```ini
+git checkout -b uke-39 origin/uke-39
+```
 
-### Google Maps API
-- [Google Maps API](https://developers.google.com/maps/documentation/javascript/)
-- [Google Maps Getting Started](https://developers.google.com/maps/documentation/javascript/tutorial)
-- [Google Maps Shapes](https://developers.google.com/maps/documentation/javascript/shapes)
+Hvis branch `uke-39` er opprettet fra før vil du få feilmelding på denne kommandoen. Da kan du i stedet prøve med denne kommandoen:
 
-### Projeksjoner
-- [Web Mercator: the de facto standard, the controversy, and the opportunity](http://www.gogeomatics.ca/magazine/web-mercator-the-de-facto-standard-the-controversy-and-the-opportunity.htm)
-- [Implications of Web Mercator and Its Use in
-Online Mapping](http://cegis.usgs.gov/projection/pdf/Battersby_Implications%20of%20Web%20Mecator%20and%20Its%20Use%20in%20Online%20Mapping.pdf)
+```ini
+git checkout uke-39
+```
 
+Sjekk at mappen og filen er synlige nå.
+
+Du skal nå ha mappen uke-39 under 2016-mappen.  Finn filen med WMS-kallene og test ut disse i nettleseren - slik som vist på demoen.
+
+### Alternativ metode for å laste ned fil uten bruk av GIT-kommandoer
+
+Filene kan lastes ned herfra: [https://github.com/sverres/NTNU-GEO2311/tree/uke-39/2016/uke-39](https://github.com/sverres/NTNU-GEO2311/tree/uke-39/2016/uke-39) ved å:
+- først enkelt-klikke på hver enkelt av filene
+- trykke på raw-knappen
+- høyreklikke og velge «save as» e.l.
+***
+
+
+Lykke til!
 
     </div>
     <div id="htmlcontent">
