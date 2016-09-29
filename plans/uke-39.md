@@ -13,7 +13,7 @@ Denne uka handler det om webkart, og vi skal høre om hvordan Google Maps tok ve
 
 - Lese i Eloquent Javascript, Kapittel 4. Data Structures: Objects and Arrays, fram til "Mutability" 
 - [javascript-kurset på Codeacademy - Del 6 - Data Structures](https://www.codecademy.com/learn/javascript)
-- [Ukeoppgave WMS-kall](ukeoppgave-WMS-kall.html)
+- [Ukeoppgave WMS-kall](ukeoppgave-wms-kall.html)
 
 ## Forelesning/fellesaktivitet på torsdag
 
