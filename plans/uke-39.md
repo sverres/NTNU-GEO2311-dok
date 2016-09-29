@@ -20,7 +20,7 @@ Denne uka handler det om webkart, og vi skal høre om hvordan Google Maps tok ve
 - Fokus på praktiske ferdigheter for Oblig 1 (fra 9:15)
   - GIT-demo om nedlasting av filer (GIT-øvingene er oppdatert)
   - Oppretting av egne hjemmesider på folk.ntnu.no, se [hjemmeside-NTNU](hjemmeside-NTNU.html)
-  - WMS-tjenester og tolking av getcapabilities-resultater [lysark m/2015-opptak](https://slides.com/sverres/geo2311-wms-kall/live#/)
+  - WMS-tjenester og tolking av getcapabilities-resultater [lysark m/2015-opptak](https://slides.com/sverres/geo2311-wms-kall/fullscreen#/)
   - Chrome developer tools
   - Google Maps API
 
