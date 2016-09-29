@@ -31,9 +31,10 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-29 17:32:04 +0200 | |Uke 39 - ett opptak
+- 2016-09-29 23:51:11 +0200 |Sverre Stikbakke |Uke 39 Opptak
 ## Tidligere versjoner
 
+- [2016-09-29 17:32:15 +0200 |Sverre Stikbakke |Uke 39 - ett opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fd9084e492973e7e6899d3cd8aba930a1e3b727c/)
 - [2016-09-29 08:07:55 +0200 |Sverre Stikbakke |Uke 39 .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/dfdd964c56821a81371d537a51565ab1e6ca8de3/)
 - [2016-09-29 08:00:04 +0200 |Sverre Stikbakke |Uke 39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/bc0ae5af9c03622877686b488bbcb30b3eccebd9/)
 - [2016-09-29 00:07:33 +0200 |Sverre Stikbakke |Ukeoppgave uke-39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ba11bca94c8b78466a7cc157d1f0c3a71345ad72/)
