@@ -14,7 +14,7 @@
 - [uke-39](./uke-39.html)
 
 ## Presentasjoner og opptak
-- [uke-34-37](./uke-34-37.html)
+- [uke-34-39](./uke-34-39.html)
 
 ## Ukeoppgaver, notater m.m.
 - [emmet](./emmet.html)
@@ -31,9 +31,10 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-09-29 08:07:42 +0200 | |Uke 39 .
+- 2016-09-29 17:32:04 +0200 | |Uke 39 - ett opptak
 ## Tidligere versjoner
 
+- [2016-09-29 08:07:55 +0200 |Sverre Stikbakke |Uke 39 .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/dfdd964c56821a81371d537a51565ab1e6ca8de3/)
 - [2016-09-29 08:00:04 +0200 |Sverre Stikbakke |Uke 39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/bc0ae5af9c03622877686b488bbcb30b3eccebd9/)
 - [2016-09-29 00:07:33 +0200 |Sverre Stikbakke |Ukeoppgave uke-39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ba11bca94c8b78466a7cc157d1f0c3a71345ad72/)
 - [2016-09-27 08:55:21 +0200 |Sverre Stikbakke |Uke 39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/66c8c04a33af757c902c20b95c10b9287046090d/)
