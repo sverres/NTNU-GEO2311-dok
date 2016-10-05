@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>uke-40</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
+    <style>
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+body {
+  font-family: 'Droid Serif';
+  margin-left: 10%;
+  width: 80%;
+  background-color: #f7f5f0;
+  max-width: 680px;
+}
+html, body {
+  overflow-x: initial;
+}
+#htmlcontent {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h1  {
+  background-color: #6c91b9;
+  color: white;
+  margin: 0 -9999rem 1rem -9999rem;
+  /* add back negative margin value */
+  padding: 1rem 9999rem;
+}
+
+pre {
+  font-family: 'Ubuntu Mono';
+}
+#mdcontent {
+  display: none;
+}
+img {
+    border-style: solid;
+    border-width: 1px;
+    color: #cbcbcb;
+}
+.MathJax_Display {
+  text-align: left !important;
+  display: inline !important;
+  padding-left: 1%;
+}
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+table td,
+table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+table td:first-child,
+table th:first-child {
+    border-left-width: 0;
+}
+table thead {
+    background-color: #c4c4c4;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+/* nth-child selector for modern browsers */
+table tr:nth-child(2n-2) td {
+    background-color: #dddddd;
+}
+
+    </style>
+</head>
+<body>
+    <div id="mdcontent">
+
+# GEO2311 - Høst 2016 - uke 40
+
+- *(ukeplanen er noe begrenset p.g.a. sykdom)*
+
+## Målsetting
+
+Ifølge semesterplanen står det WMS/WMTS for denne uka. Vi skulle også ha startet med Open Layers. Men jeg regner med at de fleste er ganske fokusert på Oblig 1, som har innleveringsfrist 11.10.
+
+## Aktiviteter
+
+- Arbeide med Oblig 1
+- Lese introduksjonen til Open Layers (Quick Start og Basic Concepts). Se ressurser.
+
+## Forelesning/fellesaktivitet på torsdag
+
+Jeg må dessverre avlyse forelesning torsdag - jeg er kraftig forkjølet og har svært dårlig stemme.
+
+Jeg håper at dere likevel kan samles i B213 og hjelpe hverandre framover med Oblig 1. Gjerne på tvers av grupper også.
+
+Hvis jeg blir i form til det, kommer jeg en tur litt ut på dagen for å bistå med veiledning.
+
+
+## Ressurser
+
+### Open Layers
+
+- [openlayers.org - hovedside](http://openlayers.org/)
+- [Documentation: Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)
+- [Tutorials: Basic Concepts](http://openlayers.org/en/latest/doc/tutorials/concepts.html)
+- [Workshop - vi kommer tilbake til denne](http://openlayers.org/workshop/en/)
+    </div>
+    <div id="htmlcontent">
+    
+        <!-- generated html -->
+
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/7.0.1/markdown-it.min.js">
+    </script>
+    <script type="text/javascript" src="script/markdown-it-link-target.min.js">
+    </script>
+    <script>
+        var md = markdownit();
+        md.use(markdownitLinkTarget);
+        var markdown = document.getElementById('mdcontent');
+        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js">
+    </script>
+    <script>
+        MathJax.Hub.Config({
+            "HTML-CSS": {
+                styles: {
+                    "text-align": "left",
+                }
+            }
+        });
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>
