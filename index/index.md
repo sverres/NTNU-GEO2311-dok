@@ -13,6 +13,7 @@
 - [uke-38](./uke-38.html)
 - [uke-39](./uke-39.html)
 - [uke-40](./uke-40.html)
+- [uke-41](./uke-41.html)
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
@@ -32,9 +33,10 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-10-05 09:54:16 +0200 |Sverre Stikbakke |Uke 40
+- 2016-10-12 11:58:02 +0200 | |Uke 41 - foreløpig
 ## Tidligere versjoner
 
+- [2016-10-05 09:54:26 +0200 |Sverre Stikbakke |Uke 40](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/cd687f4a05001330e9676e1aa01a86c0ba13f971/)
 - [2016-09-29 23:51:22 +0200 |Sverre Stikbakke |Uke 39 Opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ca97b4096c83d96d7c837f079f97f71b5ce96a5d/)
 - [2016-09-29 17:32:15 +0200 |Sverre Stikbakke |Uke 39 - ett opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fd9084e492973e7e6899d3cd8aba930a1e3b727c/)
 - [2016-09-29 08:07:55 +0200 |Sverre Stikbakke |Uke 39 .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/dfdd964c56821a81371d537a51565ab1e6ca8de3/)
