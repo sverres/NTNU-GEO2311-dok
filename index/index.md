@@ -24,8 +24,11 @@
 - [gruppearbeid_html_css_teori](./gruppearbeid_html_css_teori.html)
 - [hjemmeside-NTNU](./hjemmeside-NTNU.html)
 - [notepad2meny](./notepad2meny.html)
+- [openlayers-intro](./openlayers-intro.html)
+- [openlayers-norge](./openlayers-norge.html)
 - [README](./README.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
+- [ukeoppgave-openlayers](./ukeoppgave-openlayers.html)
 - [ukeoppgave-wms-kall](./ukeoppgave-wms-kall.html)
 - [ukeoppgave-wmskart](./ukeoppgave-wmskart.html)
 
@@ -33,9 +36,10 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-10-12 11:58:02 +0200 | |Uke 41 - foreløpig
+- 2016-10-13 08:59:59 +0200 | |Uke 41
 ## Tidligere versjoner
 
+- [2016-10-12 11:58:20 +0200 |Sverre Stikbakke |Uke 41 - foreløpig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/29ca2906d4f15f3669ec7a5ffcbdfe99e5acde3b/)
 - [2016-10-05 09:54:26 +0200 |Sverre Stikbakke |Uke 40](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/cd687f4a05001330e9676e1aa01a86c0ba13f971/)
 - [2016-09-29 23:51:22 +0200 |Sverre Stikbakke |Uke 39 Opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ca97b4096c83d96d7c837f079f97f71b5ce96a5d/)
 - [2016-09-29 17:32:15 +0200 |Sverre Stikbakke |Uke 39 - ett opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fd9084e492973e7e6899d3cd8aba930a1e3b727c/)

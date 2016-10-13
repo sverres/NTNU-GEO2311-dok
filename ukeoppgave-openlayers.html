@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>uke-41</title>
+    <title>ukeoppgave-openlayers</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
     <style>
@@ -103,41 +103,41 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO2311 - Høst 2016 - uke 41
+# Ukeoppgave med Open Layers
 
-- *(foreløpig versjon 12.10.2016)*
+## 1. Last ned filer
 
-## Målsetting
+Filer for denne ukeopppgaven kan lastes ned herfra: [uke-41.zip](./docs/uke-41.zip)
 
-Denne uka handler det om to temaer som er litt utsatt i forhold til opprinnelig emneplan:
-Open Layers webkart-bibliotek og WMS/WMTS
+Pakk ut zip-filen og sjekk at filene havner i fire mapper. I hver mappe er det både html-fil og javascript-fil.
+Sjekk at du får opp websider med topo2-kart fra alle mappene.
 
-## Teori
+## 2. Beregn målestokk for PC-skjermen.
 
-- [Intro til Open Layers](openlayers-intro.html)
-- [Open Layers med norske WMS-tjenester](openlayers-norge.html)
+Målestokk er definert som
 
-## Aktiviteter
+`avstand på kartet / avstand i terrenget`
 
-- Lese introduksjonen til Open Layers (Quick Start og Basic Concepts). Se ressurser.
-- Teste ut [Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)-eksemplet på egen PC.  
-Prøv å forstå mest mulig av koden.
-- [Open Layers-ukeoppgave](ukeoppgave-openlayers.html) med UTM-projeksjon og norske WMS-tjenester.
+Avstand på kartet kan vi "oversette" til avstand på PC-skjermen. PC-skjermen er delt opp i bildepunkter, pixels på engelsk.
+Open Layers resolution-verdier er avstanden i terrenget for en enkelt pixel. I UTM-projeksjonene er denne avstanden oppgitt i meter.
+En resolution-verdi på 20 betyr dermed at en pixel dekker 20 meter i terrenget.
 
-## Forelesning/fellesaktivitet på torsdag
+Ved hjelp av passende Google-søk - prøv å finn ut hvor store pixlene er på din PC-skjerm.
+Hva blir målestokken på din PC-skjerm hvis resolution i Open Layers er satt til 20?
 
-- Intro til Open Layers - hvordan lage levende webkart med WMS-kart fra Kartverket og andre
-- WMTS - Web Map Tile Service - om hvordan vi kan få fram kartene raskere enn med WMS
+## 3. Lag et WMS-kart med målestokk 1:1000.
+
+Oppgaven består i å finne resolution-verdien som gir målestokken 1:1000. Test ut dette ved å justere på verdiene i wms.js i mappen WMS-resolution.
+
+## 4. Tilpass Open Layers WMTS-eksempel til å vise flere Zoom-nivåer.
+
+I mappen WMTS ligger det et eksempel på webkart som bruker Kartverkets WMTS-tjeneste for topografisk norgeskart. Eksemplet viser bare 9 zoom-nivåer.
+For å få vist større deler av Norge må du endre på javascript-filen slik at den viser flere zoom-nivåer.
+
+Selv om du legger inn flere zoom-nivåer, kan du likevel ikke se hele Norge, på grunn av en begrensing i extent.
+Gjør nødvendige endringer i extent slik at hele Norge kan vises.
 
 
-## Ressurser
-
-### Open Layers
-
-- [openlayers.org - hovedside](http://openlayers.org/)
-- [Documentation: Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)
-- [Tutorials: Basic Concepts](http://openlayers.org/en/latest/doc/tutorials/concepts.html)
-- [Workshop - kan brukes for oppslag/referanse - eksemplene passer ikke helt i vår sammenheng](http://openlayers.org/workshop/en/)
     </div>
     <div id="htmlcontent">
     

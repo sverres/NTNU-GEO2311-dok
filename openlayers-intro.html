@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>uke-41</title>
+    <title>openlayers-intro</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
     <style>
@@ -103,41 +103,55 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO2311 - Høst 2016 - uke 41
+# Introduksjon til Open Layers
 
-- *(foreløpig versjon 12.10.2016)*
+## Sentrale Open Layers-komponenter (Javascript-objekter)
 
-## Målsetting
+Koden nedenfor er fra [Basic Concepts](http://openlayers.org/en/latest/doc/tutorials/concepts.html)-siden hos Open Layers. Der kan du lese om oppgaven/funksjonen til dem. Dette er viktig lesning - kortfattet og konsist!
 
-Denne uka handler det om to temaer som er litt utsatt i forhold til opprinnelig emneplan:
-Open Layers webkart-bibliotek og WMS/WMTS
+### Map
 
-## Teori
+```HTML,XML
+<div id="map" style="width: 100%, height: 400px">
+</div>
+<script>
+  var map = new ol.Map({target: 'map'});
+</script>
+```
 
-- [Intro til Open Layers](openlayers-intro.html)
-- [Open Layers med norske WMS-tjenester](openlayers-norge.html)
+### View
 
-## Aktiviteter
+```javascript
+  map.setView(new ol.View({
+    center: [0, 0],
+    zoom: 2
+  }));
+```
 
-- Lese introduksjonen til Open Layers (Quick Start og Basic Concepts). Se ressurser.
-- Teste ut [Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)-eksemplet på egen PC.  
-Prøv å forstå mest mulig av koden.
-- [Open Layers-ukeoppgave](ukeoppgave-openlayers.html) med UTM-projeksjon og norske WMS-tjenester.
+### Source
 
-## Forelesning/fellesaktivitet på torsdag
+```javascript
+var osmSource = new ol.source.OSM();
+```
 
-- Intro til Open Layers - hvordan lage levende webkart med WMS-kart fra Kartverket og andre
-- WMTS - Web Map Tile Service - om hvordan vi kan få fram kartene raskere enn med WMS
+### Layer
+
+- ```ol.layer.Tile``` is for layer sources that provide pre-rendered, tiled images in grids that are organized by zoom levels for specific resolutions.
+
+- ```ol.layer.Image``` is for server rendered images that are available for arbitrary extents and resolutions.
+
+- ```ol.layer.Vector``` is for vector data that is rendered client-side.
+
+```javascript
+var osmLayer = new ol.layer.Tile({source: osmSource});
+map.addLayer(osmLayer);
+```
+
+### Komplett eksempel
+
+[basic-concepts.html](./docs/openlayers/basic-concepts.html)
 
 
-## Ressurser
-
-### Open Layers
-
-- [openlayers.org - hovedside](http://openlayers.org/)
-- [Documentation: Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)
-- [Tutorials: Basic Concepts](http://openlayers.org/en/latest/doc/tutorials/concepts.html)
-- [Workshop - kan brukes for oppslag/referanse - eksemplene passer ikke helt i vår sammenheng](http://openlayers.org/workshop/en/)
     </div>
     <div id="htmlcontent">
     
