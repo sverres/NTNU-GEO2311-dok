@@ -13,10 +13,12 @@
 
 - [Ryan's Tutorials - Linux tutorial](http://ryanstutorials.net/)
 
-## WMS
+## WMS og WMTS
 
 - [WMS-veileder fra Norge Digitalt](https://www.geonorge.no/globalassets/geonorge2/veiledere/veileder-for-web-map-service-201008.pdf)
 - [WMS-spesifikasjonen fra OGC](http://portal.opengeospatial.org/files/?artifact_id=14416)
+- [Kartverkets WMS- og cache-tjenester](http://www.kartverket.no/Kart/Gratis-kartdata/WMS-tjenester/)
+- [WMST-spesifikasjonen fra OGC](http://portal.opengeospatial.org/files/?artifact_id=35326)
 
 ## Javascript
 
@@ -26,15 +28,21 @@
 - [Codeacedemy-kurs i javascript - Unit 3-5 kan droppes](https://www.codecademy.com/learn/javascript)
 - [w3schools.com - for oppslag/referanse](http://www.w3schools.com/)
 
-### Webkart
+## Webkart
 - [Kart på nett. Hvem, hva, hvordan?](http://www.kartogplan.no/Artikler/KP3-2014/Kart%20pa%20nett%20Hvem%20hva%20hvordan.pdf)
 
-### Google Maps API
+## Open Layers
+- [openlayers.org - hovedside](http://openlayers.org/)
+- [Documentation: Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)
+- [Tutorials: Basic Concepts](http://openlayers.org/en/latest/doc/tutorials/concepts.html)
+- [Workshop - kan brukes for oppslag/referanse - eksemplene passer ikke helt i vår sammenheng](http://openlayers.org/workshop/en/)
+
+## Google Maps API
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/)
 - [Google Maps Getting Started](https://developers.google.com/maps/documentation/javascript/tutorial)
 - [Google Maps Shapes](https://developers.google.com/maps/documentation/javascript/shapes)
 
-### Projeksjoner
+## Projeksjoner
 - [Web Mercator: the de facto standard, the controversy, and the opportunity](http://www.gogeomatics.ca/magazine/web-mercator-the-de-facto-standard-the-controversy-and-the-opportunity.htm)
 - [Implications of Web Mercator and Its Use in
 Online Mapping](http://cegis.usgs.gov/projection/pdf/Battersby_Implications%20of%20Web%20Mecator%20and%20Its%20Use%20in%20Online%20Mapping.pdf)
