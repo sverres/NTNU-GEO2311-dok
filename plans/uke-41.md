@@ -23,8 +23,11 @@ Prøv å forstå mest mulig av koden.
 - WMTS - Web Map Tile Service - om hvordan vi kan få fram kartene raskere enn med WMS
 - Se også [Presentasjoner og opptak fra uke 41](index.html)
 
-
 ## Ressurser
+
+### Løsningsforslag
+
+- [Løsning på ukeoppgave om Open Layers](ukeoppgave-openlayers-l-forslag.html)
 
 ### Open Layers
 

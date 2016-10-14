@@ -30,6 +30,7 @@
 - [README](./README.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
 - [ukeoppgave-openlayers](./ukeoppgave-openlayers.html)
+- [ukeoppgave-openlayers-l-forslag](./ukeoppgave-openlayers-l-forslag.html)
 - [ukeoppgave-wms-kall](./ukeoppgave-wms-kall.html)
 - [ukeoppgave-wmskart](./ukeoppgave-wmskart.html)
 
@@ -37,9 +38,10 @@
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
 
 ## Denne versjonen
-- 2016-10-13 14:05:55 +0200 | |Uke 41 - opptak
+- 2016-10-14 19:37:53 +0200 |Sverre Stikbakke |Uke 41 løsningsforslag
 ## Tidligere versjoner
 
+- [2016-10-13 14:06:09 +0200 |Sverre Stikbakke |Uke 41 - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/6b1fccd940f6fb4f5270c15e4a3e14549c51f149/)
 - [2016-10-13 09:00:14 +0200 |Sverre Stikbakke |Uke 41](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/852e2f1cc25684d03f568668990f269164ce96e9/)
 - [2016-10-12 11:58:20 +0200 |Sverre Stikbakke |Uke 41 - foreløpig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/29ca2906d4f15f3669ec7a5ffcbdfe99e5acde3b/)
 - [2016-10-05 09:54:26 +0200 |Sverre Stikbakke |Uke 40](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/cd687f4a05001330e9676e1aa01a86c0ba13f971/)
