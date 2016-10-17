@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>uke-42</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
+    <style>
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+body {
+  font-family: 'Droid Serif';
+  margin-left: 10%;
+  width: 80%;
+  background-color: #f7f5f0;
+  max-width: 680px;
+}
+html, body {
+  overflow-x: initial;
+}
+#htmlcontent {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h1  {
+  background-color: #6c91b9;
+  color: white;
+  margin: 0 -9999rem 1rem -9999rem;
+  /* add back negative margin value */
+  padding: 1rem 9999rem;
+}
+
+pre {
+  font-family: 'Ubuntu Mono';
+}
+#mdcontent {
+  display: none;
+}
+img {
+    border-style: solid;
+    border-width: 1px;
+    color: #cbcbcb;
+}
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+table td,
+table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+table td:first-child,
+table th:first-child {
+    border-left-width: 0;
+}
+table thead {
+    background-color: #c4c4c4;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+/* nth-child selector for modern browsers */
+table tr:nth-child(2n-2) td {
+    background-color: #dddddd;
+}
+
+    </style>
+</head>
+<body>
+    <div id="mdcontent">
+
+# GEO2311 - Høst 2016 - uke 42
+
+![vector tiles](./images/plans/mapbox-vector.png)
+
+## En innrømmelse, og en ny retning
+
+Jeg har brukt helga til å ombestemme meg. I stedet for å gå videre med Open Layers og legge vektordata som egne lag over bilder fra WMS- eller WMTS-tjenester, har jeg kommet til at vi satser for fullt på ett kort:
+
+
+Vector Tiles med Mapbox. Vi brukte Mapbox i emnet i fjor, og det gikk ganske bra. Men det var litt forvirrende også, for midt i semesteret la Mapbox om fra raster tiles til vector tiles. Etter litt om og men viste det seg at vi kunne fortsette med raster tiles likevel. Det var i 2015.
+
+Nå er Mapbox veldig fokusert på vector tiles, selv om det fortsatt er mulig å bruke raster tiles. Men vector tiles passer egentlig ganske godt:
+
+Vi skulle uansett jobbe med våre egne vektordata. Og på semesterplanen står både kartografi og vector tiles. Disse tre temaene kan behandles sammen hvis vi bruker Mapbox med vektor tiles.
+
+Mer om det på torsdag. Bruk lenkene nedenfor til å komme litt inn i tematikken.
+
+## Teori
+
+Sentral tekst som viser hva som skiller Mapbox Vector Tiles fra f.eks. Open Layers:
+- [Mapbox GL JS fundamentals](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/)
+
+## Aktiviteter
+
+- lesing av teori
+- utforsking på Mapboxs websider - se ressurser
+- [Lynkurs i Mapbox - lag ditt første kart](mapbox-lynkurs.html)
+
+## Forelesning/fellesaktivitet på torsdag
+
+- Introduksjonsforelesning om Mapbox
+- Tid for å gjennomføre lynkurs i Mapbox 
+- Presentasjon av opplegg for medstudent-evaluering av Oblig 1. Vi setter av tid til å gjennomføre dette også.
+- Presentasjon av Oblig 2 - oppgaven blir kanskje ikke 100% ferdig til da, men det viktigste skal være på plass.
+- eventuelt
+
+## Ressurser
+
+### Mapbox
+
+- [Hovedsiden for Mapbox](https://www.mapbox.com/)
+- [Mapbox studio](https://www.mapbox.com/mapbox-studio/)
+- [Massevis av kodeeksempler](https://www.mapbox.com/mapbox-gl-js/examples/)
+- [Gallery - kart-inspirasjon](https://www.mapbox.com/gallery/)
+- [Mapbox token - kodenøkkelen](https://www.mapbox.com/studio/account/tokens/)
+- [Mapbox GL JS fundamentals](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/)
+- [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/)
+- [Mapbox konto-alternativer](https://www.mapbox.com/pricing/)
+
+### WebGL - underliggende teknologi - grafikk-motoren
+- [Wiki](https://www.khronos.org/webgl/wiki/Main_Page)
+- [3D-demo: San Angeles Observation](https://www.khronos.org/registry/webgl/sdk/demos/google/san-angeles/index.html)
+- [3D-demo: Earth](https://www.khronos.org/registry/webgl/sdk/demos/google/san-angeles/index.html)
+
+
+
+    </div>
+    <div id="htmlcontent">
+    
+        <!-- generated html -->
+
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/7.0.1/markdown-it.min.js">
+    </script>
+    <script type="text/javascript" src="script/markdown-it-link-target.min.js">
+    </script>
+    <script>
+        var md = markdownit();
+        md.use(markdownitLinkTarget);
+        var markdown = document.getElementById('mdcontent');
+        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js">
+    </script>
+    <script>
+        MathJax.Hub.Config({
+            "HTML-CSS": {
+                styles: {
+                    "text-align": "left",
+                }
+            }
+        });
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>
