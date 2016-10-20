@@ -1,105 +1,66 @@
-# GEO2311/GEO2311F - Høst 2016 - Oblig 2
+# Ukeoppgave - WMS-kart
 
-- *(versjon 19.10.16)*
+- *(Oppdatert 26.09.16 med endrede git-kommandoer. Jeg håper det virker denne gangen.)*
 
 ## Målsetting
 
-Målet med oppgaven er å lage et temakart for web-presentasjon som viser statistikk over sysselsetting. Gjennom dette vil dere få erfaring med 
+- laste ned nye filer fra github
+- lage eget WMS-kart
 
-- å bruke et javascript-bibliotek for webkart
-- å tilrettelegge data for kart-presentasjon
-- å praktisere kartografi-teori i utforming av web-kart
+## Oppgave
 
-Arbeidet skal dokumenteres i en rapport.
+Denne oppgaven forutsetter at du har gjort [git-oppgaven](./git.html) fra uke 35.
 
-Oppgaven er beskrevet gjennom noen punkter som beskriver en naturlig arbeidsgang ved utforming av web-kart.
+Gå til mappen du lagde ved hjelp av GIT (c:\NTNU\NTNU-GEO2311).
+Høyreklikk i mappen og velg "GIT Bash here".
 
-## 1. Innhenting og tilrettelegging av statistikkdata
+I repoet NTNU-GEO2311 har jeg nå opprettet en ny "tråd", i GIT-terminologi kalt "branch". 
 
-På nettsidene til Statistisk Sentralbyrå (ssb.no) kan dere finne statistiske data for en rekke ulike temaer. I denne oppgaven skal dere bruke data om sysselsetting. 
-Startsiden for statistikk om sysselsetting finner dere her: [https://www.ssb.no/regsys](https://www.ssb.no/regsys)
-Ved å gå videre herfra kan dere finne tabeller for både fylker og kommuner.
+Først nullstiller vi ved å gi en kommando som setter GIT til master-branch:
 
-Under fanen *tabeller* er det listet opp noen temaer, og du finner flere ved å gå videre til *statistikkbanken*. Ut fra disse tabellene skal du og din gruppe velge ut et tema som dere vil presentere. Statistikken har tidsserier (tall for flere år), slik at det går an å se på endring over noen år. Et eksempel på en statistikkvariabel for et temakart kan være:
-- endring i antall sysselsatte i jordbruk, skogbruk og fiske i kommunene i Rogaland fra 2005-2014.
-Datasettet skal beskrives i rapporten slik at det går tydelig fram hvilke data som presenteres i kartet. 
+```ini
+git checkout master
+```
 
-## 3. Valg og tilrettelegging av kartdata
+Ved å gi denne kommandoen i Bash GIT-vinduet vil du oppdatere ditt lokale GIT-repo (ligger i en skjult mappe, .git under c:\NTNU\NTNU-GEO2311)
 
-Temakartet skal inneholde alle kommunene i det valgte fylket, eller alle fylker i Norge. Datasett med administrative enheter – kommuner og fylker, er tilgjengelig hos Kartverket: [http://data.kartverket.no/download/]( http://data.kartverket.no/download/), i SOSI- eller GeoJSON-format.
+```ini
+git fetch origin
+```
 
-På Kartverkets sider om Kartdatainformasjon, [http://kartverket.no/data/kartdata/](http://kartverket.no/data/kartdata/), kan dere lese beskrivelser og produktspesifikasjoner for de ulike kartseriene. Gjør deg kjent med disse og velg ut fra dette hvilken kartserie dere skal bruke i denne oppgaven. Dette valget må begrunnes. Se også under punkt 7. for momenter til dette valget.
-Kartdata på SOSI-format kan leses av QGIS og kan lagres/konverteres til en rekke formater.
+Filene ligger foreløpig skjult i ditt lokale GIT-repo. Med kommandoen nedenfor vil du
+1. opprette en lokal branch, `uke-37`
+2. gjøre denne aktiv, og dermed pakke ut filene fra lokalt repo
 
-## 4. Kobling av statistikkdata og kartdata
+```ini
+git checkout -b uke-37 origin/uke-37
+```
 
-For å kunne produsere temakartet må statistikkdataene kobles med kommunekartet. Hvordan dette skal gjøres er presentert i undervisning og øvingsoppgaver i GEO1121 / GEO1121F GIS Intro. Modifisering og bearbeiding av datasettet fra SSB må påregnes for å få til dette.
+Hvis branch `uke-37` er opprettet fra før vil du få feilmelding på denne kommandoen. Da kan du i stedet prøve med denne kommandoen:
 
-## 5. Valg av presentasjonsform
+```ini
+git checkout uke-37
+```
 
-Kartet skal lages slik at det formidler budskapet på en god måte. Deres oppgave som GIS-fagpersoner er å gjøre budskapet tilgjengelig for målgruppen. Her må dere vurdere hvem som kan være aktuell målgruppe og velge karttype/presentasjonsform ut fra dette. Dette punktet er en svært viktig del av oppgaven og må begrunnes godt. Se også forutsetninger i punkt 7 som kan påvirke presentasjonsform.
-
-## 6. Produksjon av GeoJSON-fil med statistikk-data
-
-QGIS kan lagre filer i GeoJSON-format. GeoJSON-filen skal inneholde stil-informasjon *(her må det tas et lite forbehold om Mapbox GL JS støtter dette på samme måte som Mapbox JS)*. Bruk teorien fra kartografi-delen av emnet som bakgrunn når dere velger stil/kartografi. Vær oppmerksom på hvilken projeksjon/koordinatsystem som filene lagres med.
-
-## 7. Programmering og utforming av webkart og webside
-
-Oppgaven her blir å lage en webside med kart ved hjelp av javascript-biblioteket *Mapbox GL JS* slik at dere får vist fram GeoJSON-filen med sysselsettingsdata.
-Her henvises det til veiledninger og annen dokumentasjon for Mapbox gitt i forelesninger og i ukeplanen for uke 42. Det vil også kunne komme nye momenter i kommende forelesninger og gjennom veiledning.
-
-Med Mapbox Studio er det mulig å bestemme kartografien svært detaljert, enten ved å tilpasse en av de forhåndsdefinerte stilen, eller ved å bygge opp en ny stil fra bunnen av. Det er også mulig å bruke en av Kartverkets visningstjenester sammen med Mapbox GL JS. Dette punktet vil kreve en god del arbeid med å sette seg inn i funksjonaliteten i Mapbox Studio.
-
-## 8. Beskrive teknologi brukt i løsningen
-
-Minimumskravet her er å gi en kortfattet oversikt over vector tiles-teknologi. Videre er det naturlig å beskrive fordeler og ulemper med denne teknologien.
-
-## Krav til innleveringer og rapport
-
-- Rapporten skal gi en oversiktlig beskrivelse av arbeidsgangen i hele prosessen med oppgaven. Det skal legges spesiell vekt på å beskrive
-  - målgruppe
-  - datagrunnlaget
-  - vurderinger knyttet til kartografien
-  - beskrivelse av teknologi
-  
-- For webside og programkode gjelder de samme generelle krav som i [Oblig 1](GEO2311-GEO2311F-Oblig-1-H2016.html).
-- Hvert gruppemedlem må kunne forklare hvordan koden er bygd opp.
-
-### Hver enkelt skal legge ut på folk.ntnu.no:
-
-- Komplett og fungerende webside. Gruppemedlemmene skal ha samme versjon av denne.
-
-### Dette skal leveres i Blackboard som gruppeinnlevering:
-
-1. url'er til webside-løsningen for alle gruppemedlemmene. Dette skal leveres som en egen tekstfil. Den skal ikke være zip'et.
-2. Rapport i pdf-format.
-3. Zip-fil med alle filene som inngår i løsningen.
-
-### Felles presentasjon
-
-*Presentasjonen gjelder bare for studenter på campus (GEO2311 – ikke GEO2311F).*
-
-Alle campus-gruppene skal presentere sin løsning i klassen 
-
-  - __torsdag 24. november fra kl. 9:15__. 
-
-Hver gruppe får inntil 4 minutter til sin presentasjon. En del av denne tiden brukes til tilbakemeldinger fra resten av klassen.
+Sjekk at mappen og filene er synlige nå.
 
 
-## Gruppeinndeling
+### Alternativ metode for å laste ned filene uten bruk av GIT-kommandoer
 
-Oppgaven gjøres som gruppearbeid for alle campus-studenter. Nettstudenter kan velge å arbeide alene, men vi anbefaler at det jobbes i grupper.
-
-Inndeling i grupper skal gjøres i Blackboard ved at vi oppretter et antall tomme grupper, som dere deretter melder dere inn i. Det blir synlig før påmelding hvem som allerede har meldt seg inn i gruppene. Gruppene skal bestå av 2-3 personer.
-
-__NB! Det vil bli etablert egne grupper i Blackboard for Oblig 2.__
-
-For nettstudenter blir det egne grupper, og man må melde seg inn i en gruppe selv om man velger å arbeide alene.
-
-Gruppene får tilgang til gruppeverktøy for fildeling og blogg. Det som legges ut her er bare synlig for gruppemedlemmene og de med lærer-rolle i emnet.
-
-## Ressurser
-
-- Se ukeplan for uke 42, og undervisningsmateriell for kartografi (kommer i Blackboard). For øvrig så bygger denne oppgaven på alt stoff som er gjennomgått tidligere i semesteret.
+Filene kan lastes ned herfra: [https://github.com/sverres/NTNU-GEO2311/tree/uke-37/2016/uke-37](https://github.com/sverres/NTNU-GEO2311/tree/uke-37/2016/uke-37) ved å:
+- først enkelt-klikke på hver enkelt av filene
+- trykke på raw-knappen
+- høyreklikke og velge «save as» e.l.
+***
 
 
+En av filene er wmskart.html. Den viser et kart over Gjøvik sentrum.
+Oppgaven videre går ut på å forandre på koordinatene i BBOX-parameteret i 
+denne filen slik at du får et kart over ditt hjemsted.
+
+Bruk [norgeskart.no](https://norgeskart.no) for å finne koordinatene dine
+(klikk i kartet, velg deretter i-verktøyet fra den blå sirkelen). Du trenger koordinatparene i UTM32-projeksjonen for nedre venstre og øvre høyre hjørne for kartutsnittet du skal ha. 
+
+Hvis du først finner et punkt som kan være nedre venstre hjørne, kan du deretter legge til f.eks. 500 på både x- og y-koordinatene slik at du får et rektangel på 500x500 meter.
+
+Lykke til!

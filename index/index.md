@@ -38,11 +38,14 @@
 
 ## Obligatoriske oppgaver
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
+- [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-10-17 22:17:41 +0200 |Sverre Stikbakke |Uke 42
+- 2016-10-20 11:50:46 +0200 | |Oblig 2
 ## Tidligere versjoner
 
+- [2016-10-19 14:52:27 +0200 |Sverre Stikbakke |Oblig 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7e60ae5e66c8696256dedf0e9d6809d63482f51e/)
+- [2016-10-17 22:17:52 +0200 |Sverre Stikbakke |Uke 42](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/b48d0947b4e3dcf37a34c549eadce646d1cdfa19/)
 - [2016-10-14 19:38:05 +0200 |Sverre Stikbakke |Uke 41 løsningsforslag](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/82839d3e4ee159f8aaf692460edec214ff85e547/)
 - [2016-10-13 14:06:09 +0200 |Sverre Stikbakke |Uke 41 - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/6b1fccd940f6fb4f5270c15e4a3e14549c51f149/)
 - [2016-10-13 09:00:14 +0200 |Sverre Stikbakke |Uke 41](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/852e2f1cc25684d03f568668990f269164ce96e9/)
