@@ -6,7 +6,6 @@
 - [programvare](./programvare.html)
 
 ## Ukeplaner
-- [texts-test](./texts-test.html)
 - [uke-34](./uke-34.html)
 - [uke-35](./uke-35.html)
 - [uke-36](./uke-36.html)
@@ -42,9 +41,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-10-24 10:37:05 +0200 | |Ny frist Oblig 2
+- 2016-10-24 10:40:08 +0200 | |Ny frist Oblig 2
 ## Tidligere versjoner
 
+- [2016-10-24 10:37:22 +0200 |Sverre Stikbakke |Ny frist Oblig 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e060af1a32a5a684ae5753e223c941f2a375103c/)
 - [2016-10-21 08:17:17 +0200 |Sverre Stikbakke |Uke 42 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c01d158e2a0b8475f3f89a42e16d9ad899a7bdd5/)
 - [2016-10-21 08:14:16 +0200 |Sverre Stikbakke |Uke 42 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/4004022fdf704d3e44211f47d2573a79b4a8c2d8/)
 - [2016-10-20 11:51:07 +0200 |Sverre Stikbakke |Oblig 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ee62d5e969b17aec431c66384a7f307d5e02dc3f/)
