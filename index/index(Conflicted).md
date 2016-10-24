@@ -12,28 +12,50 @@
 - [uke-37](./uke-37.html)
 - [uke-38](./uke-38.html)
 - [uke-39](./uke-39.html)
+- [uke-40](./uke-40.html)
+- [uke-41](./uke-41.html)
+- [uke-42](./uke-42.html)
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
+- [uke-40-41](./uke-40-41.html)
 
 ## Ukeoppgaver, notater m.m.
 - [emmet](./emmet.html)
 - [git](./git.html)
 - [gruppearbeid_html_css_teori](./gruppearbeid_html_css_teori.html)
 - [hjemmeside-NTNU](./hjemmeside-NTNU.html)
+- [mapbox-lynkurs](./mapbox-lynkurs.html)
 - [notepad2meny](./notepad2meny.html)
+- [openlayers-intro](./openlayers-intro.html)
+- [openlayers-norge](./openlayers-norge.html)
 - [README](./README.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
+- [ukeoppgave-openlayers](./ukeoppgave-openlayers.html)
+- [ukeoppgave-openlayers-l-forslag](./ukeoppgave-openlayers-l-forslag.html)
 - [ukeoppgave-wms-kall](./ukeoppgave-wms-kall.html)
 - [ukeoppgave-wmskart](./ukeoppgave-wmskart.html)
 
 ## Obligatoriske oppgaver
 - [GEO2311-GEO2311F-Oblig-1-H2016](./GEO2311-GEO2311F-Oblig-1-H2016.html)
+- [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-09-29 17:32:04 +0200 | |Uke 39 - ett opptak
+- 2016-10-21 13:00:09 +0200 | |
 ## Tidligere versjoner
 
+- [2016-10-21 08:17:17 +0200 |Sverre Stikbakke |Uke 42 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c01d158e2a0b8475f3f89a42e16d9ad899a7bdd5/)
+- [2016-10-21 08:14:16 +0200 |Sverre Stikbakke |Uke 42 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/4004022fdf704d3e44211f47d2573a79b4a8c2d8/)
+- [2016-10-20 11:51:07 +0200 |Sverre Stikbakke |Oblig 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ee62d5e969b17aec431c66384a7f307d5e02dc3f/)
+- [2016-10-19 14:52:27 +0200 |Sverre Stikbakke |Oblig 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7e60ae5e66c8696256dedf0e9d6809d63482f51e/)
+- [2016-10-17 22:17:52 +0200 |Sverre Stikbakke |Uke 42](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/b48d0947b4e3dcf37a34c549eadce646d1cdfa19/)
+- [2016-10-14 19:38:05 +0200 |Sverre Stikbakke |Uke 41 løsningsforslag](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/82839d3e4ee159f8aaf692460edec214ff85e547/)
+- [2016-10-13 14:06:09 +0200 |Sverre Stikbakke |Uke 41 - opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/6b1fccd940f6fb4f5270c15e4a3e14549c51f149/)
+- [2016-10-13 09:00:14 +0200 |Sverre Stikbakke |Uke 41](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/852e2f1cc25684d03f568668990f269164ce96e9/)
+- [2016-10-12 11:58:20 +0200 |Sverre Stikbakke |Uke 41 - foreløpig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/29ca2906d4f15f3669ec7a5ffcbdfe99e5acde3b/)
+- [2016-10-05 09:54:26 +0200 |Sverre Stikbakke |Uke 40](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/cd687f4a05001330e9676e1aa01a86c0ba13f971/)
+- [2016-09-29 23:51:22 +0200 |Sverre Stikbakke |Uke 39 Opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ca97b4096c83d96d7c837f079f97f71b5ce96a5d/)
+- [2016-09-29 17:32:15 +0200 |Sverre Stikbakke |Uke 39 - ett opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fd9084e492973e7e6899d3cd8aba930a1e3b727c/)
 - [2016-09-29 08:07:55 +0200 |Sverre Stikbakke |Uke 39 .](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/dfdd964c56821a81371d537a51565ab1e6ca8de3/)
 - [2016-09-29 08:00:04 +0200 |Sverre Stikbakke |Uke 39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/bc0ae5af9c03622877686b488bbcb30b3eccebd9/)
 - [2016-09-29 00:07:33 +0200 |Sverre Stikbakke |Ukeoppgave uke-39](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/ba11bca94c8b78466a7cc157d1f0c3a71345ad72/)

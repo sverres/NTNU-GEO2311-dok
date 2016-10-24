@@ -2,8 +2,8 @@
 
 ## Emnebeskrivelser
 
-- [GEO2311](http://www.ntnu.no/studier/emner/GEO2311/2016/1#tab=omEmnet)
-- [GEO2311F](http://www.ntnu.no/studier/emner/GEO2311F/2016/1#tab=omEmnet)
+|[GEO2311](http://www.ntnu.no/studier/emner/GEO2311/2016/1#tab=omEmnet)|[GEO2311F](http://www.ntnu.no/studier/emner/GEO2311F/2016/1#tab=omEmnet)|
+
 
 ## Emneplan
 
@@ -22,7 +22,7 @@ Uke |Tema |Kommentar
 44  |Kartografi | |
 45  |Vektortiles | |
 46  |Geografiske databaser | |
-47  |Oppsummering |Siste undervisningsuke |
+47  |Oppsummering - Presentasjon |Siste undervisningsuke |
 48  | | |
 49  | | |
 50  |Muntlig eksamen 14.12, 15.12 og 16.12 |
@@ -34,4 +34,4 @@ Uke |Tema |Kommentar
 Oppgave |Tema |Innleveringsfrist
 :---|:---|:---
 Oblig 1 |WMS, Webkart m.m. |11.10
-Oblig 2 |Webkart med egne data m.m. - framføring |11.11
+Oblig 2 |Webkart med egne data m.m. - framføring |17.11

@@ -25,18 +25,26 @@ Emmet er en tilleggspakke til Atom editor, og kan installeres på følgende måt
 
 Etter et Emmet er installert kan du teste funksjonaliteten i en HTML-fil (Emmet virker bare i filer med endelse .html og .css, og kommandoene virker forskjellig i de to filtypene).
 
-Skriv f.eks. disse kommandoene, plasser cursoren på samme linje som kommadoen og etter det siste tegnet. Trykk på tabulatortasten:
+Skriv f.eks. disse kommandoene, plasser cursoren på samme linje som kommadoen og etter det siste tegnet. Trykk deretter på tabulatortasten:
+
+---
+
+   !
+
+   ul
+
+   ol
+
+   li
 
 
-- !
+   ul>li*4  
 
-- ul
-- ol
-- li
+   ul>li*4>a:link  
 
-- ul>li*4
-- ul>li*4>a:link
-- p*3>lorem8
+   p*3>lorem8  
+
+---
 
 Den siste kommandoen bruker en generator for Lorem Ipsum-tekst. Les mer om det her:
 - [Lorem Ipsum](http://docs.emmet.io/abbreviations/lorem-ipsum/)

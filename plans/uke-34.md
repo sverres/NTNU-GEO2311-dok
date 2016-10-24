@@ -10,7 +10,7 @@
 
 - registrer deg som bruker på [codedacademy.com](http://codeacademy.com)
 - start med kurset [HTML&CSS](https://www.codecademy.com/learn/web) under Language skills
-- gjenomfør leksjonene 1-3
+- gjennomfør leksjonene 1-3
 - installer programvare som skal brukes i emnet (se egen oversikt for dette)
 
 

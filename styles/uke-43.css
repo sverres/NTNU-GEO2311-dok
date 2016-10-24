@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>README</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">
-    <style>
-
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
@@ -91,41 +83,3 @@ table thead {
 table tr:nth-child(2n-2) td {
     background-color: #bbbbbb;
 }
-    </style>
-</head>
-<body>
-    <div id="mdcontent">
-
-# NTNU-GEO2311-dok
-
-Filer til bruk i emnet GEO2311/GEO2311F Geografisk informasjonsbehandling.
-
-Dette er hovedsaklig websider som presenteres gjennom NTNUs nye læringsplattform, Blackboard Learn. GEO2311/GEO2311F er pilotemne for NTNU på Blackboard høsten 2016.
-
-Filer som brukes i øvinger ligger i et eget repository, NTNU-GEO2311.
-
-    </div>
-    <div id="htmlcontent">
-    
-        <!-- generated html -->
-
-    </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.0.1/markdown-it.min.js">
-    </script>
-    <script type="text/javascript" src="script/markdown-it-link-target.min.js">
-    </script>
-    <script>
-        var md = markdownit();
-        md.use(markdownitLinkTarget);
-        var markdown = document.getElementById('mdcontent');
-        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
-    </script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js">
-    </script>
-    <script>
-        hljs.initHighlightingOnLoad();
-    </script>
-</body>
-</html>

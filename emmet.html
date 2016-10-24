@@ -3,7 +3,7 @@
 <head>
     <title>emmet</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">
     <style>
 
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -13,7 +13,8 @@ body {
   font-family: 'Droid Serif';
   margin-left: 10%;
   width: 80%;
-  background-color: #f7f5f0;
+  background-color: #DCD8CF;
+  color: #282827;
   max-width: 680px;
 }
 html, body {
@@ -30,8 +31,9 @@ h1, h2, h3 {
   margin-bottom: 1rem;
 }
 h1  {
-  background-color: #6c91b9;
-  color: white;
+  padding: 5px;
+  background-color: #E25D33;
+  color: #DCD8CF;
 }
 
 pre {
@@ -42,8 +44,8 @@ pre {
 }
 img {
     border-style: solid;
-    border-width: 1px;
-    color: #cbcbcb;
+    border-width: 2px;
+    color: #E25D33;
 }
 /*!
 Pure v0.6.0
@@ -56,10 +58,10 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
-    border: 1px solid #cbcbcb;
+    border: 1px solid #E25D33;
 }
 table caption {
-    color: #000;
+    color: #282827;
     font: italic 85%/1 arial, sans-serif;
     padding: 1em 0;
     text-align: center;
@@ -80,16 +82,15 @@ table th:first-child {
     border-left-width: 0;
 }
 table thead {
-    background-color: #c4c4c4;
-    color: #000;
+    background-color: #E25D33;
+    color: #282827;
     text-align: left;
     vertical-align: bottom;
 }
 /* nth-child selector for modern browsers */
 table tr:nth-child(2n-2) td {
-    background-color: #dddddd;
+    background-color: #bbbbbb;
 }
-
     </style>
 </head>
 <body>
@@ -122,18 +123,26 @@ Emmet er en tilleggspakke til Atom editor, og kan installeres på følgende måt
 
 Etter et Emmet er installert kan du teste funksjonaliteten i en HTML-fil (Emmet virker bare i filer med endelse .html og .css, og kommandoene virker forskjellig i de to filtypene).
 
-Skriv f.eks. disse kommandoene, plasser cursoren på samme linje som kommadoen og etter det siste tegnet. Trykk på tabulatortasten:
+Skriv f.eks. disse kommandoene, plasser cursoren på samme linje som kommadoen og etter det siste tegnet. Trykk deretter på tabulatortasten:
+
+---
+
+   !
+
+   ul
+
+   ol
+
+   li
 
 
-- !
+   ul>li*4  
 
-- ul
-- ol
-- li
+   ul>li*4>a:link  
 
-- ul>li*4
-- ul>li*4>a:link
-- p*3>lorem8
+   p*3>lorem8  
+
+---
 
 Den siste kommandoen bruker en generator for Lorem Ipsum-tekst. Les mer om det her:
 - [Lorem Ipsum](http://docs.emmet.io/abbreviations/lorem-ipsum/)
@@ -146,7 +155,7 @@ Den siste kommandoen bruker en generator for Lorem Ipsum-tekst. Les mer om det h
         <!-- generated html -->
 
     </div>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/7.0.1/markdown-it.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.0.1/markdown-it.min.js">
     </script>
     <script type="text/javascript" src="script/markdown-it-link-target.min.js">
     </script>
@@ -158,16 +167,9 @@ Den siste kommandoen bruker en generator for Lorem Ipsum-tekst. Les mer om det h
     </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js">
     </script>
     <script>
-        MathJax.Hub.Config({
-            "HTML-CSS": {
-                styles: {
-                    "text-align": "left",
-                }
-            }
-        });
         hljs.initHighlightingOnLoad();
     </script>
 </body>
