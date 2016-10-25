@@ -19,7 +19,7 @@
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
-- [uke-40-41](./uke-40-41.html)
+- [uke-40-42](./uke-40-42.html)
 
 ## Ukeoppgaver, notater m.m.
 - [emmet](./emmet.html)
@@ -42,9 +42,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-10-25 18:59:15 +0200 |Sverre Stikbakke |Ukeplan uke 43
+- 2016-10-25 19:11:25 +0200 |Sverre Stikbakke |Ukeplan uke 43.
 ## Tidligere versjoner
 
+- [2016-10-25 18:59:26 +0200 |Sverre Stikbakke |Ukeplan uke 43](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/8902f9d6cb0769be0b2c832d7da281935c90ea22/)
 - [2016-10-24 10:40:24 +0200 |Sverre Stikbakke |Ny frist Oblig 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0b93605470eef7b4f79aaaff5f33bc902c345ac4/)
 - [2016-10-24 10:37:22 +0200 |Sverre Stikbakke |Ny frist Oblig 2](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/e060af1a32a5a684ae5753e223c941f2a375103c/)
 - [2016-10-21 08:17:17 +0200 |Sverre Stikbakke |Uke 42 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/c01d158e2a0b8475f3f89a42e16d9ad899a7bdd5/)

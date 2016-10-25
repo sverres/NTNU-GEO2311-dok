@@ -36,7 +36,9 @@ For at det skal virke med en ekstern geojson-fil, holder det ikke å bare klikke
 på html-fila i en mappe. Fila må presenteres gjennom en webserver. Og det er  
 det som gjøres ved hjelp av fila *startWebServerHer.py*. Dette er et lite
 python-program som starter en webserver for filene i mappen den startes fra 
-(ved å dobbelklikke på den). Du kobler deg til denne webserveren ved url'en
+(ved å dobbelklikke på *startWebServerHer.py* - dette forutsetter at Python er 
+installert - og dette følger med
+ArcGIS-installasjonen). Du kobler deg til denne webserveren ved url'en
 [http://localhost:8000](http://localhost:8000). På opptaket fra tordag kan du 
 se hvordan jeg gjorde dette (jeg kommenterte det ikke da).
 
