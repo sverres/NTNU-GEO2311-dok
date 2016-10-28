@@ -27,7 +27,13 @@ Temaet denne uka er kartografi og det blir presentert av Rune Strand Ødegård.
 - se igjennom videoer og pdf'er under teori
 - gjør deg kjent med stoffet under Ressurser
 - les [FORSLAG TIL MOMENTER FOR VURDERING AV KART](./docs/kartografi/FORSLAG_TIL_MOMENTER_FOR_VURDERING_AV_KART.pdf)
-  og bruk dette som bakgrunn for å vurdere disse kartene: [kart til vurdering](./docs/kart_til_vurdering/)
+  og bruk dette som bakgrunn for å vurdere disse kartene:
+  - [bosetting_tegnforklaring.pdf](./docs/kart_til_vurdering/bosetting_tegnforklaring.pdf)
+  - [bosetting_utsnitt.pdf](./docs/kart_til_vurdering/bosetting_utsnitt.pdf)
+  - [bykart_gjovik.pdf](./docs/kart_til_vurdering/bykart_gjovik.pdf)
+  - [OL_kart_tegnforklaring.pdf](./docs/kart_til_vurdering/OL_kart_tegnforklaring.pdf)
+  - [OL_kart_utsnitt.pdf](./docs/kart_til_vurdering/OL_kart_utsnitt.pdf)
+
 
 
 ## Forelesning/fellesaktivitet på torsdag
