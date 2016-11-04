@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+body {
+  font-family: 'Droid Serif';
+  margin-left: 10%;
+  width: 80%;
+  //background-color: #DCD8CF;
+  color: #444449;
+  max-width: 680px;
+}
+html, body {
+  overflow-x: initial;
+}
+#htmlcontent {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+  color: #4a6781;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h1  {
+  padding: 5px;
+  background-color: #F5F5F5;
+  color: #444449;
+}
+
+pre {
+  font-family: 'Ubuntu Mono';
+}
+#mdcontent {
+  display: none;
+}
+img {
+    border-style: solid;
+    border-width: 2px;
+    color: #E25D33;
+}
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #EC6952;
+}
+table caption {
+    color: #282827;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+table td,
+table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.5em 1em; /* cell padding */
+}
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+table td:first-child,
+table th:first-child {
+    border-left-width: 0;
+}
+table thead {
+    background-color: #EC6952;
+    color: #282827;
+    text-align: left;
+    vertical-align: bottom;
+}
+/* nth-child selector for modern browsers */
+table tr:nth-child(2n-2) td {
+    background-color: #bbbbbb;
+}
