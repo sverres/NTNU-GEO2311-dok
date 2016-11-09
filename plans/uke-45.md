@@ -17,7 +17,7 @@ Vi oppsummerer kartografi-temaet og anvender det vi har lært i arbeidet med Obl
 ## Forelesning/fellesaktivitet på torsdag
 
 - Forelesning om kartografi v/ Rune Strand Ødegård  (fra 9:15)
-- Litt felles tilbakemelding på Oblig 1 - bl. a.
+- Litt felles tilbakemelding på Oblig 1 - bl. a. mappestruktur
 - Vi deler det vi kan om Mapbox, vektor-tiles og styling av kart
 
 
