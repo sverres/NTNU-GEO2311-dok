@@ -1,6 +1,6 @@
 # Ukeoppgave - WMS-kart
 
-- *(Oppdatert 26.09.16 med endrede git-kommandoer. Jeg håper det virker denne gangen.)*
+> *(Oppdatert 26.09.16 med endrede git-kommandoer. Jeg håper det virker denne gangen.)*
 
 ## Målsetting
 
@@ -11,8 +11,8 @@
 
 Denne oppgaven forutsetter at du har gjort [git-oppgaven](./git.html) fra uke 35.
 
-Gå til mappen du lagde ved hjelp av GIT (c:\NTNU\NTNU-GEO2311).
-Høyreklikk i mappen og velg "GIT Bash here".
+> Gå til mappen du lagde ved hjelp av GIT (c:\NTNU\NTNU-GEO2311).
+> Høyreklikk i mappen og velg "GIT Bash here".
 
 I repoet NTNU-GEO2311 har jeg nå opprettet en ny "tråd", i GIT-terminologi kalt "branch". 
 

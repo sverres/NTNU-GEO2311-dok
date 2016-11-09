@@ -17,6 +17,7 @@
 - [uke-42](./uke-42.html)
 - [uke-43](./uke-43.html)
 - [uke-44](./uke-44.html)
+- [uke-45](./uke-45.html)
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
@@ -43,9 +44,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-04 10:45:26 +0100 | |Uke 44 opptak
+- 2016-11-09 08:09:18 +0100 | |Uke 45
 ## Tidligere versjoner
 
+- [2016-11-04 10:45:38 +0100 |Sverre Stikbakke |Uke 44 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/880d7a6f81e7cb88685fb8eb9fd36d7b709e422b/)
 - [2016-10-28 11:45:24 +0200 |Sverre Stikbakke |Ukeplan uke 44](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0054fc308b11b3ad697ecac95a384ae2b311828b/)
 - [2016-10-28 11:35:50 +0200 |Sverre Stikbakke |Ukeplan uke 44](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0f488ed1b389b8d9562dc28977b0cb02b4d0db55/)
 - [2016-10-25 19:11:36 +0200 |Sverre Stikbakke |Ukeplan uke 43.](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/fbfebb649d50e62361c619f8995be952d4fa42a3/)
