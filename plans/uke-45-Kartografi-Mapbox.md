@@ -27,7 +27,7 @@ Vi oppsummerer kartografi-temaet og anvender det vi har lært i arbeidet med Obl
 - [GeoJSON](http://slides.com/sverres/geo2311_geojson/fullscreen#/) og ny standard fra august 2016
 - GeoJSON-filer på Mapbox.com vs. "lokal" webserver
 - Styling av polygondata
-	- [Ukeplan for uke 43](uke-43-Mapbok.html)
+	- [Ukeplan for uke 43](uke-43-Mapbox.html)
 	- [Make a choropleth map with Mapbox part 2: publish your style with Mapbox GL JS](https://www.mapbox.com/help/choropleth-studio-gl-pt-2/) (Takk for tips, Vebjørn!)
 - Visning av egenskapsdata
 	- [Get features under the mouse pointer](https://www.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures/)
