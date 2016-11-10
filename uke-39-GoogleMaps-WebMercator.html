@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>uke-42</title>
+    <title>uke-39-GoogleMaps-WebMercator</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">
     <style>
@@ -10,7 +10,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 html {
-    background: #f9f9f9;
+    background: #ffffff;
     color: black;
     font-family: 'Droid Serif';
 }
@@ -127,60 +127,52 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO2311 - Høst 2016 - uke 42
-
-![vector tiles](./images/plans/mapbox-vector.png)
-
-## En innrømmelse, og en ny retning
-
-Jeg har brukt helga til å ombestemme meg. I stedet for å gå videre med Open Layers og legge vektordata som egne lag over bilder fra WMS- eller WMTS-tjenester, har jeg kommet til at vi satser for fullt på ett kort:
+# GEO2311 - Høst 2016 - uke 39
 
 
-Vector Tiles med Mapbox. Vi brukte Mapbox i emnet i fjor, og det gikk ganske bra. Men det var litt forvirrende også, for midt i semesteret la Mapbox om fra raster tiles til vector tiles. Etter litt om og men viste det seg at vi kunne fortsette med raster tiles likevel. Det var i 2015.
+## Målsetting
 
-Nå er Mapbox veldig fokusert på vector tiles, selv om det fortsatt er mulig å bruke raster tiles. Men vector tiles passer egentlig ganske godt:
+Denne uka handler det om webkart, og vi skal høre om hvordan Google Maps tok verden med storm i 2005. Google Maps API er fortsatt i front innen webkart. Javascript-teorien om datastrukturer, arrays og objekter, gir nødvendig bakgrunn for å kunne forstå hvordan Google Maps API skal brukes.
 
-Vi skulle uansett jobbe med våre egne vektordata. Og på semesterplanen står både kartografi og vector tiles. Disse tre temaene kan behandles sammen hvis vi bruker Mapbox med vektor tiles.
-
-Mer om det på torsdag. Bruk lenkene nedenfor til å komme litt inn i tematikken.
-
-## Teori
-
-Sentral tekst som viser hva som skiller Mapbox Vector Tiles fra f.eks. Open Layers:
-- [Mapbox GL JS fundamentals](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/)
+- Lære om datastrukturer i javascript - arrays og objekter
+- Lære om Google Maps og webkart-historikk
+- Lære om projeksjonen som Google Maps bruker
 
 ## Aktiviteter
 
-- lesing av teori
-- utforsking på Mapboxs websider - se ressurser
-- [Lynkurs i Mapbox - lag ditt første kart](mapbox-lynkurs.html)
+- Lese i Eloquent Javascript, Kapittel 4. Data Structures: Objects and Arrays, fram til "Mutability" 
+- [javascript-kurset på Codeacademy - Del 6 - Data Structures](https://www.codecademy.com/learn/javascript)
+- [Ukeoppgave WMS-kall](ukeoppgave-wms-kall.html)
 
 ## Forelesning/fellesaktivitet på torsdag
 
-- Introduksjonsforelesning om Mapbox
-- Tid for å gjennomføre lynkurs i Mapbox 
-- Presentasjon av opplegg for medstudent-evaluering av Oblig 1. Vi setter av tid til å gjennomføre dette også.
-- Presentasjon av Oblig 2 - oppgaven blir kanskje ikke 100% ferdig til da, men det viktigste skal være på plass.
-- eventuelt
+- Fokus på praktiske ferdigheter for Oblig 1 (fra 9:15)
+  - GIT-demo om nedlasting av filer (GIT-øvingene er oppdatert)
+  - Oppretting av egne hjemmesider på folk.ntnu.no, se [hjemmeside-NTNU](hjemmeside-NTNU.html)
+  - WMS-tjenester og tolking av getcapabilities-resultater [lysark m/2015-opptak](https://slides.com/sverres/geo2311-wms-kall/fullscreen#/)
+  - Chrome developer tools
+  - Google Maps API
+
+- Forelesning Google Maps og Web Mercator-projeksjonen (fra 13:15)
 
 ## Ressurser
 
-### Mapbox
+### Javascript
 
-- [Hovedsiden for Mapbox](https://www.mapbox.com/)
-- [Mapbox studio](https://www.mapbox.com/mapbox-studio/)
-- [Massevis av kodeeksempler](https://www.mapbox.com/mapbox-gl-js/examples/)
-- [Gallery - kart-inspirasjon](https://www.mapbox.com/gallery/)
-- [Mapbox token - kodenøkkelen](https://www.mapbox.com/studio/account/tokens/)
-- [Mapbox GL JS fundamentals](https://www.mapbox.com/help/mapbox-gl-js-fundamentals/)
-- [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/)
-- [Mapbox konto-alternativer](https://www.mapbox.com/pricing/)
+- [Eloquent JavaScript - Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
 
-### WebGL - underliggende teknologi - grafikk-motoren
-- [Wiki](https://www.khronos.org/webgl/wiki/Main_Page)
-- [3D-demo: San Angeles Observation](https://www.khronos.org/registry/webgl/sdk/demos/google/san-angeles/index.html)
-- [3D-demo: Earth](https://www.khronos.org/registry/webgl/sdk/demos/google/san-angeles/index.html)
+### Webkart
+- [Kart på nett. Hvem, hva, hvordan?](http://www.kartogplan.no/Artikler/KP3-2014/Kart%20pa%20nett%20Hvem%20hva%20hvordan.pdf)
 
+### Google Maps API
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/)
+- [Google Maps Getting Started](https://developers.google.com/maps/documentation/javascript/tutorial)
+- [Google Maps Shapes](https://developers.google.com/maps/documentation/javascript/shapes)
+
+### Projeksjoner
+- [Web Mercator: the de facto standard, the controversy, and the opportunity](http://www.gogeomatics.ca/magazine/web-mercator-the-de-facto-standard-the-controversy-and-the-opportunity.htm)
+- [Implications of Web Mercator and Its Use in
+Online Mapping](http://cegis.usgs.gov/projection/pdf/Battersby_Implications%20of%20Web%20Mecator%20and%20Its%20Use%20in%20Online%20Mapping.pdf)
 
 
     </div>

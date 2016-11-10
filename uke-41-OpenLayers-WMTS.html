@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>uke-39</title>
+    <title>uke-41-OpenLayers-WMTS</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/tomorrow.min.css">
     <style>
@@ -10,7 +10,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 html {
-    background: #f9f9f9;
+    background: #ffffff;
     color: black;
     font-family: 'Droid Serif';
 }
@@ -127,54 +127,47 @@ table tr:nth-child(2n-2) td {
 <body>
     <div id="mdcontent">
 
-# GEO2311 - Høst 2016 - uke 39
-
+# GEO2311 - Høst 2016 - uke 41
 
 ## Målsetting
 
-Denne uka handler det om webkart, og vi skal høre om hvordan Google Maps tok verden med storm i 2005. Google Maps API er fortsatt i front innen webkart. Javascript-teorien om datastrukturer, arrays og objekter, gir nødvendig bakgrunn for å kunne forstå hvordan Google Maps API skal brukes.
+Denne uka handler det om to temaer som er litt utsatt i forhold til opprinnelig emneplan:
+Open Layers webkart-bibliotek og WMS/WMTS
 
-- Lære om datastrukturer i javascript - arrays og objekter
-- Lære om Google Maps og webkart-historikk
-- Lære om projeksjonen som Google Maps bruker
+## Teori
+
+- [Intro til Open Layers](openlayers-intro.html)
+- [Open Layers med norske WMS-tjenester](openlayers-norge.html)
 
 ## Aktiviteter
 
-- Lese i Eloquent Javascript, Kapittel 4. Data Structures: Objects and Arrays, fram til "Mutability" 
-- [javascript-kurset på Codeacademy - Del 6 - Data Structures](https://www.codecademy.com/learn/javascript)
-- [Ukeoppgave WMS-kall](ukeoppgave-wms-kall.html)
+- Lese introduksjonen til Open Layers (Quick Start og Basic Concepts). Se ressurser.
+- Teste ut [Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)-eksemplet på egen PC.  
+Prøv å forstå mest mulig av koden.
+- [Open Layers-ukeoppgave](ukeoppgave-openlayers.html) med UTM-projeksjon og norske WMS-tjenester.
 
 ## Forelesning/fellesaktivitet på torsdag
 
-- Fokus på praktiske ferdigheter for Oblig 1 (fra 9:15)
-  - GIT-demo om nedlasting av filer (GIT-øvingene er oppdatert)
-  - Oppretting av egne hjemmesider på folk.ntnu.no, se [hjemmeside-NTNU](hjemmeside-NTNU.html)
-  - WMS-tjenester og tolking av getcapabilities-resultater [lysark m/2015-opptak](https://slides.com/sverres/geo2311-wms-kall/fullscreen#/)
-  - Chrome developer tools
-  - Google Maps API
-
-- Forelesning Google Maps og Web Mercator-projeksjonen (fra 13:15)
+- Intro til Open Layers - hvordan lage levende webkart med WMS-kart fra Kartverket og andre
+- WMTS - Web Map Tile Service - om hvordan vi kan få fram kartene raskere enn med WMS
+- Se også [Presentasjoner og opptak fra uke 41](index.html)
 
 ## Ressurser
 
-### Javascript
+### Løsningsforslag
 
-- [Eloquent JavaScript - Data Structures: Objects and Arrays](http://eloquentjavascript.net/04_data.html)
+- [Løsning på ukeoppgave om Open Layers](ukeoppgave-openlayers-l-forslag.html)
 
-### Webkart
-- [Kart på nett. Hvem, hva, hvordan?](http://www.kartogplan.no/Artikler/KP3-2014/Kart%20pa%20nett%20Hvem%20hva%20hvordan.pdf)
+### Open Layers
 
-### Google Maps API
-- [Google Maps API](https://developers.google.com/maps/documentation/javascript/)
-- [Google Maps Getting Started](https://developers.google.com/maps/documentation/javascript/tutorial)
-- [Google Maps Shapes](https://developers.google.com/maps/documentation/javascript/shapes)
+- [openlayers.org - hovedside](http://openlayers.org/)
+- [Documentation: Quick Start](http://openlayers.org/en/latest/doc/quickstart.html)
+- [Tutorials: Basic Concepts](http://openlayers.org/en/latest/doc/tutorials/concepts.html)
+- [Workshop - kan brukes for oppslag/referanse - eksemplene passer ikke helt i vår sammenheng](http://openlayers.org/workshop/en/)
 
-### Projeksjoner
-- [Web Mercator: the de facto standard, the controversy, and the opportunity](http://www.gogeomatics.ca/magazine/web-mercator-the-de-facto-standard-the-controversy-and-the-opportunity.htm)
-- [Implications of Web Mercator and Its Use in
-Online Mapping](http://cegis.usgs.gov/projection/pdf/Battersby_Implications%20of%20Web%20Mecator%20and%20Its%20Use%20in%20Online%20Mapping.pdf)
-
-
+### WMTS
+- [Kartverkets WMS- og cache-tjenester](http://www.kartverket.no/Kart/Gratis-kartdata/WMS-tjenester/)
+- [WMST-spesifikasjonen fra OGC](http://portal.opengeospatial.org/files/?artifact_id=35326)
     </div>
     <div id="htmlcontent">
     
