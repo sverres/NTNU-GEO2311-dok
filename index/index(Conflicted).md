@@ -6,22 +6,22 @@
 - [programvare](./programvare.html)
 
 ## Ukeplaner
-- [uke-34](./uke-34.html)
-- [uke-35](./uke-35.html)
-- [uke-36](./uke-36.html)
-- [uke-37](./uke-37.html)
-- [uke-38](./uke-38.html)
-- [uke-39](./uke-39.html)
-- [uke-40](./uke-40.html)
-- [uke-41](./uke-41.html)
-- [uke-42](./uke-42.html)
-- [uke-43](./uke-43.html)
-- [uke-44](./uke-44.html)
-- [uke-45](./uke-45.html)
+- [uke-34-Codeacademy](./uke-34-Codeacademy.html)
+- [uke-35-HTML-CSS](./uke-35-HTML-CSS.html)
+- [uke-36-WMS](./uke-36-WMS.html)
+- [uke-37-javascript](./uke-37-javascript.html)
+- [uke-38-javascript](./uke-38-javascript.html)
+- [uke-39-GoogleMaps-WebMercator](./uke-39-GoogleMaps-WebMercator.html)
+- [uke-40-OpenLayers](./uke-40-OpenLayers.html)
+- [uke-41-OpenLayers-WMTS](./uke-41-OpenLayers-WMTS.html)
+- [uke-42-Mapbox](./uke-42-Mapbox.html)
+- [uke-43-Mapbox](./uke-43-Mapbox.html)
+- [uke-44-Kartografi](./uke-44-Kartografi.html)
+- [uke-45-Kartografi-Mapbox](./uke-45-Kartografi-Mapbox.html)
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
-- [uke-40-44](./uke-40-44.html)
+- [uke-40-45](./uke-40-45.html)
 
 ## Ukeoppgaver, notater m.m.
 - [emmet](./emmet.html)
@@ -44,9 +44,16 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-10 12:20:27 +0100 | |Uke 45 m. linker
+- 2016-11-12 13:39:10 +0100 |Sverre Stikbakke |
 ## Tidligere versjoner
 
+- [2016-11-12 11:53:54 +0100 |Sverre Stikbakke |startWbServerHere.py](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/52c82cfc07a30ba7d388ddf0c08da35208ff0f79/)
+- [2016-11-10 23:15:53 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/56c9853de03abb3c4ab88441f6df194948da225c/)
+- [2016-11-10 23:13:47 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/a996fbbd4395c896c96f005990a8e006c992a26e/)
+- [2016-11-10 22:59:41 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0577c61d82f1b8db7e0054fb9d51baaee0d9b1c9/)
+- [2016-11-10 19:29:34 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/620cbd136fcaa562553e13eb3178206fcaa4895b/)
+- [2016-11-10 12:29:32 +0100 |Sverre Stikbakke |Uke 45 m. linker](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/28bae7afec7a8b7e7c5d4a7bcb6cda16a6753173/)
+- [2016-11-10 12:20:37 +0100 |Sverre Stikbakke |Uke 45 m. linker](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/4e4355b6bfaf7c19f57a4a538edce8fcdc6d8ef6/)
 - [2016-11-09 08:12:12 +0100 |Sverre Stikbakke |Uke 45](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0dddf67e815f7ca77d80da016175c0d639e71633/)
 - [2016-11-09 08:09:39 +0100 |Sverre Stikbakke |Uke 45](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/200cc1e93b231fea280de183438b364cf986ae19/)
 - [2016-11-04 10:45:38 +0100 |Sverre Stikbakke |Uke 44 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/880d7a6f81e7cb88685fb8eb9fd36d7b709e422b/)
