@@ -1,6 +1,6 @@
 # GEO2311 - Høst 2016 - uke 46
 
-- *(planen vil bli oppdatert i løpet av 16.11)*
+- *(planen vil bli oppdatert i løpet av 17.-18.11)*
 
 ## Målsetting
 

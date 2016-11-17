@@ -45,9 +45,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-16 09:14:27 +0100 |Sverre Stikbakke |Uke 46 - v.1
+- 2016-11-17 08:47:24 +0100 |Sverre Stikbakke |Uke 46 - v.1.1
 ## Tidligere versjoner
 
+- [2016-11-16 09:14:45 +0100 |Sverre Stikbakke |Uke 46 - v.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7cfa7d31e0e6db087845ea872217df1852b9e033/)
 - [2016-11-12 11:53:54 +0100 |Sverre Stikbakke |startWbServerHere.py](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/52c82cfc07a30ba7d388ddf0c08da35208ff0f79/)
 - [2016-11-10 23:15:53 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/56c9853de03abb3c4ab88441f6df194948da225c/)
 - [2016-11-10 23:13:47 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/a996fbbd4395c896c96f005990a8e006c992a26e/)
