@@ -9,10 +9,13 @@ Programvare |Kommentar|Brukes til
 [Chrome nettleser](https://www.google.com/chrome/browser/desktop/index.html)||For test og utvikling av websider
 ---|---|---|---
 [ArcGIS 10.4](https://software.ntnu.no/) |med alle extensions |GIS-program
-[OpenGeoSuite 4.8](http://boundlessgeo.com/products/) |ikke GeoWebCache, GeoServer Extensions, Dev Tools |PostGIS geografisk database
-[QGIS](http://boundlessgeo.com/products/qgis/) ||GIS-program
+[OpenGeoSuite 4.8](https://boundlessgeo.com/boundless-suite/) |ikke GeoWebCache, GeoServer Extensions, Dev Tools |PostGIS geografisk database
+[Desktop](https://boundlessgeo.com/boundless-desktop/) |Spesialversjon av QGIS|GIS-program
 [Enkel webserver](./docs/startWebServerHere.zip) |Ny versjon 11.11.16 |Utvikling av websider på egen PC
 
+Desktop-programmet fra Boundless er gratis å bruke, men man trenger å registrere seg for å få lastet det ned.
+
+---
 
 Enkel webserver trenger ikke å installeres. Den pakkes ut i samme mappe som html-filene. Krever at Python 2.x er installert, men det følger med ArcGIS-installasjonen.
 
