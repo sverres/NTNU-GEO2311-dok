@@ -34,6 +34,7 @@
 - [openlayers-intro](./openlayers-intro.html)
 - [openlayers-norge](./openlayers-norge.html)
 - [README](./README.html)
+- [topo2-WMS-WebMercator](./topo2-WMS-WebMercator.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
 - [ukeoppgave-openlayers](./ukeoppgave-openlayers.html)
 - [ukeoppgave-openlayers-l-forslag](./ukeoppgave-openlayers-l-forslag.html)
@@ -45,9 +46,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-18 08:57:41 +0100 |Sverre Stikbakke |Uke 46 opptak
+- 2016-11-20 11:44:49 +0100 |Sverre Stikbakke |Uke 46 teori
 ## Tidligere versjoner
 
+- [2016-11-18 08:57:54 +0100 |Sverre Stikbakke |Uke 46 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7efa5adcd5336777d41282ac45fc00afe54a1e64/)
 - [2016-11-17 08:47:34 +0100 |Sverre Stikbakke |Uke 46 - v.1.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/13d1741af1f5009187843e94f7a455dd67e5db12/)
 - [2016-11-16 09:14:45 +0100 |Sverre Stikbakke |Uke 46 - v.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7cfa7d31e0e6db087845ea872217df1852b9e033/)
 - [2016-11-12 11:53:54 +0100 |Sverre Stikbakke |startWbServerHere.py](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/52c82cfc07a30ba7d388ddf0c08da35208ff0f79/)

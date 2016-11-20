@@ -2,7 +2,7 @@
 
 ## Emnebeskrivelser
 
-|[GEO2311](http://www.ntnu.no/studier/emner/GEO2311/2016/1#tab=omEmnet)|[GEO2311F](http://www.ntnu.no/studier/emner/GEO2311F/2016/1#tab=omEmnet)|
+| [GEO2311](http://www.ntnu.no/studier/emner/GEO2311/2016/1#tab=omEmnet) | [GEO2311F](http://www.ntnu.no/studier/emner/GEO2311F/2016/1#tab=omEmnet) |
 
 
 ## Emneplan

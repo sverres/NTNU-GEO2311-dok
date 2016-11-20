@@ -6,6 +6,7 @@
 - [programvare](./programvare.html)
 
 ## Ukeplaner
+- [topo2-WMS-WebMercator](./topo2-WMS-WebMercator.html)
 - [uke-34-Codeacademy](./uke-34-Codeacademy.html)
 - [uke-35-HTML-CSS](./uke-35-HTML-CSS.html)
 - [uke-36-WMS](./uke-36-WMS.html)
@@ -18,10 +19,11 @@
 - [uke-43-Mapbox](./uke-43-Mapbox.html)
 - [uke-44-Kartografi](./uke-44-Kartografi.html)
 - [uke-45-Kartografi-Mapbox](./uke-45-Kartografi-Mapbox.html)
+- [uke-46-Topologi_geografiske_databaser](./uke-46-Topologi_geografiske_databaser.html)
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
-- [uke-40-45](./uke-40-45.html)
+- [uke-40-46](./uke-40-46.html)
 
 ## Ukeoppgaver, notater m.m.
 - [emmet](./emmet.html)
@@ -44,9 +46,12 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-12 13:39:10 +0100 |Sverre Stikbakke |
+- 2016-11-20 11:29:15 +0100 |Sverre Stikbakke |
 ## Tidligere versjoner
 
+- [2016-11-18 08:57:54 +0100 |Sverre Stikbakke |Uke 46 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7efa5adcd5336777d41282ac45fc00afe54a1e64/)
+- [2016-11-17 08:47:34 +0100 |Sverre Stikbakke |Uke 46 - v.1.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/13d1741af1f5009187843e94f7a455dd67e5db12/)
+- [2016-11-16 09:14:45 +0100 |Sverre Stikbakke |Uke 46 - v.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7cfa7d31e0e6db087845ea872217df1852b9e033/)
 - [2016-11-12 11:53:54 +0100 |Sverre Stikbakke |startWbServerHere.py](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/52c82cfc07a30ba7d388ddf0c08da35208ff0f79/)
 - [2016-11-10 23:15:53 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/56c9853de03abb3c4ab88441f6df194948da225c/)
 - [2016-11-10 23:13:47 +0100 |Sverre Stikbakke |Uke 45 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/a996fbbd4395c896c96f005990a8e006c992a26e/)
