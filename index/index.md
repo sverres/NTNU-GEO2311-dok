@@ -19,6 +19,7 @@
 - [uke-44-Kartografi](./uke-44-Kartografi.html)
 - [uke-45-Kartografi-Mapbox](./uke-45-Kartografi-Mapbox.html)
 - [uke-46-Topologi_geografiske_databaser](./uke-46-Topologi_geografiske_databaser.html)
+- [uke-47-Geografiske_databaser](./uke-47-Geografiske_databaser.html)
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
@@ -46,9 +47,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-20 11:44:49 +0100 |Sverre Stikbakke |Uke 46 teori
+- 2016-11-23 10:28:55 +0100 |Sverre Stikbakke |Uke 47
 ## Tidligere versjoner
 
+- [2016-11-20 11:45:02 +0100 |Sverre Stikbakke |Uke 46 teori](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9221c02605bfdc27baf559d2d5b92be76f3a6824/)
 - [2016-11-18 08:57:54 +0100 |Sverre Stikbakke |Uke 46 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7efa5adcd5336777d41282ac45fc00afe54a1e64/)
 - [2016-11-17 08:47:34 +0100 |Sverre Stikbakke |Uke 46 - v.1.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/13d1741af1f5009187843e94f7a455dd67e5db12/)
 - [2016-11-16 09:14:45 +0100 |Sverre Stikbakke |Uke 46 - v.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7cfa7d31e0e6db087845ea872217df1852b9e033/)
