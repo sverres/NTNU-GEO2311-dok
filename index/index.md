@@ -48,9 +48,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-24 08:43:13 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave
+- 2016-11-24 08:45:40 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave
 ## Tidligere versjoner
 
+- [2016-11-24 08:43:24 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/736cbecab71085642a3a0e74b9103658cedbfa72/)
 - [2016-11-23 10:29:06 +0100 |Sverre Stikbakke |Uke 47](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9dd35b6c721d408f498a703835ba14cae714edd2/)
 - [2016-11-20 11:45:02 +0100 |Sverre Stikbakke |Uke 46 teori](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9221c02605bfdc27baf559d2d5b92be76f3a6824/)
 - [2016-11-18 08:57:54 +0100 |Sverre Stikbakke |Uke 46 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7efa5adcd5336777d41282ac45fc00afe54a1e64/)

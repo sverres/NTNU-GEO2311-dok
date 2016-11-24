@@ -12,7 +12,7 @@ Teorigrunnlaget ble presentert i ukeplanen for uke 46. Jeg har også lagt ut fle
 ## Aktiviteter
 
 - forberedelse til presentasjon av Oblig 2, torsdag 24.11.
-- ukeoppgave med geografisk analyse i PostGIS (kommer)
+- [ukeoppgave med geografisk analyse i PostGIS](ukeoppgave_geografiske_databaser.html)
 - [workshop fra Boundless](http://workshops.boundlessgeo.com/postgis-intro/)
 
 ## Forelesning/fellesaktivitet på torsdag
