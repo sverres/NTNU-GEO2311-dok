@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ukeoppgave_geografiske_databaser</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/github.min.css">
+    <style>
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+html {
+    background: #ffffff;
+    color: black;
+    font-family: 'Droid Serif';
+}
+
+body {
+    margin-left: 10%;
+    width: 80%;
+    max-width: 680px;
+}
+
+html, body {
+    overflow-x: initial;
+}
+
+#htmlcontent {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #337ab7;
+}
+
+pre {
+    font-family: 'Ubuntu Mono';
+}
+
+blockquote {
+    border-left: 5px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+#mdcontent {
+    display: none;
+}
+
+img {
+    border-style: solid;
+    border-width: 2px;
+    color: #E25D33;
+}
+
+
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+
+table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+    margin: 1em 0 1.5em 0;
+}
+
+table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+table td, table th {
+    border-left: 1px solid #cbcbcb;
+    /*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    /*to make ths where the title is really long work*/
+    padding: 0.5em 1em;
+    /* cell padding */
+}
+
+
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+
+table td:first-child, table th:first-child {
+    border-left-width: 0;
+}
+
+table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+
+/*
+striping:
+   even - #fff (white)
+   odd  - #f2f2f2 (light gray)
+*/
+
+
+/* nth-child selector for modern browsers */
+
+table tr:nth-child(2n-2) td {
+    background-color: #f2f2f2;
+}
+
+    </style>
+</head>
+<body>
+    <div id="mdcontent">
+
+# Ukeoppgave SQL-spørringer mot PostGIS-base med lokale data
+
+## Opprettelse av ny database og import av data
+
+Innholdet i denne delen av ukeoppgaven er demonstrert i [opptak fra 2015 fra ca: 2:45](https://screencast.uninett.no/relay/ansatt/sverreshig.no/2015/16.10/463400/GEO2311_-_Ukeoppgave_geografiske_databaser_-_intro_-_20151016_112253_39.html) (Se også opptakene om geografiske databaser under uke 46 på siden for *Presentasjoner og opptak*, spesielt *Demo av PostGIS (2015) inkl. analyser*)
+
+1. Lag en ny geografisk database og kall den glt ved hjelp av pgadmin. Se hjelpetekster under PostGIS i dashboard for hvordan du gjør dette (Creating a spatial database).
+
+2. Last ned SQL-filer med data over grunnkretser, bygninger, veier og noen sporlogger: [glt.zip](docs/glt.zip)
+
+3. Kjør SQL-kommandoene fra SQL-filene ved å åpne dem i SQL-vinduet i pgadmin.
+
+4. Gjør deg kjent med QGIS og opprett en forbindelse til databasen ved hjelp av OpenGeoExplorer (Vindu inne i QGIS).
+
+5. Prøv ut noen spørringer, f.eks. disse:
+
+```SQL
+- ================================================================================
+- Spørringen velger ut bygninger helt innenfor grunnkrets Kirkebyskogen
+- og lister ut byggnummer
+- ================================================================================
+-
+SELECT bygning.byggnr
+FROM bygning, grunnkrets
+WHERE grunnkrets.gkretsnavn= 'KIRKEBYSKOGEN'
+AND ST_Contains(grunnkrets.wkb_geometry, bygning.wkb_geometry)
+
+- ================================================================================
+- Spørringen velger ut bygninger som ligger på grenselinjen for grunnkrets
+- Kirkebyskogen og oppretter en egen tabell for disse.
+- ================================================================================
+-
+CREATE TABLE K3 AS
+SELECT bygning.*
+FROM bygning, grunnkrets
+WHERE grunnkrets.gkretsnavn= 'KIRKEBYSKOGEN'
+AND ST_Intersects(grunnkrets.wkb_geometry, bygning.wkb_geometry)
+AND NOT ST_Contains(grunnkrets.wkb_geometry, bygning.wkb_geometry)
+```
+
+## Dictionary
+
+Databasen glt skal nå inneholde seks tabeller med data fra kommunene Gjøvik, Lillehammer, Østre- og Vestre Toten:
+
+Tabell | Innhold
+--- | ---
+grunnkrets |Dette er data fra Statistisk Sentralbyrå som inneholder befolkningstall.
+sentrumssone |Dette er automatisk beregnede soner (polygoner) som viser sentrumssoner i store tettsteder og byer.  Samme beregning er gjort over flere år, så polygonene er derfor overlappende.
+bygning |Dette er alle bygninger I en viss radius rundt B-bygget på HIG.
+bygning750 |Dette er alle bygninger med størrelse over 750 kvadratmeter i de fire kommunene.
+trackpoint |Dette er et punkttema med GPS tracklog (sporlogg) fra noen sykkelturer mellom Totenvika og Gjøvik.
+vbase |Dette er europa-, riks, og fylkesveier.
+
+## Del 1:  Enkle SQL-spørringer
+
+Bruk det du har lært om databaser og SQL-spørringer i IMT2261 til å finne svar på følgende spørsmål:
+
+- Hvor mange kvinner og menn bor det i grunnkretsen Tongjordet?
+- Hvor mange grunnkretser er det i Gjøvik? Gjøvik har kommunenummer 502.
+- Hvor lang er riksvei 4 i Vestre Toten?
+- På hvilken dato startet den første sykkelturen?
+
+## Del 2:  Enkle Simple Features-funksjoner
+
+Se på eksempler i Section 9 i Intro to PostGIS og finn svar på spørsmålet nedenfor:
+
+- Hva er areal og omkrets av grunnkretsen Tongjordet?
+
+- Del 3:  Funksjoner for å teste romlige relasjoner  
+Se på eksempler i Section 10 og 11 først.
+
+    - Ligger byggnr 7447868 innenfor Maihaugen grunnkrets?
+    - Hvor langt er det fra B-bygget til nærmeste sentrumssone? B-bygget har byggnr. 7482434.
+    - Hvor mange hus er det i grunnkretsen Kirkebyskogen?
+
+## Del 4:  Spatial Join
+
+Se på eksemplene i Section 12 og 13 og lag en spatial join mellom trackpoint og grunnkretsen Rambekkmoen slik at du kan
+
+- liste ut GPS-punktene innenfor grunnkretsen.  Prøv om du får til å ordne punktene kronologisk.
+- Finne ut hvor mange hus det er i grunnkretsen Kirkebyskogen.
+
+## Del 5:  Konstruere ny geometri
+
+Se på eksemplene i Section 18.
+
+- Lag en ny tabell med følgende SQL-kommando:
+
+```SQL
+CREATE TABLE rv4utvalg AS
+  SELECT FROM vbas
+  WHERE datfgstdat = '05.09.2006';
+```
+- Lag deretter en buffersone på 100 meter rundt denne veistrekningen og beregn arealet av buffersonen.
+- Finn deretter ut arealet av bufferet innefor de grunnkretsene som blir berørt.
+- Du må lage en ny tabell ved hjelp av intersect for å få til dette.
+
+## Løsningsforslag
+
+Vil bli lagt ut i Blackboard onsdag 30.11 kl. 10:00.
+
+    </div>
+    <div id="htmlcontent">
+    
+        <!-- generated html -->
+
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.0.1/markdown-it.min.js">
+    </script>
+    <script type="text/javascript" src="script/markdown-it-link-target.min.js">
+    </script>
+    <script>
+        var md = markdownit();
+        md.use(markdownitLinkTarget);
+        var markdown = document.getElementById('mdcontent');
+        document.getElementById("htmlcontent").innerHTML = md.render(markdown.innerHTML);
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js">
+    </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</body>
+</html>
