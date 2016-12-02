@@ -20,9 +20,9 @@
 
 NB: *Rom E211* fram til lunsj.
 - Besøk fra Kartverket og orientering om [#hack4no](http://www.hack4.no/). Her er opplegget slik de beskriver det:
-	- Hack4no og hvordan en student kan få mest mulig utbytte av det
-	- Gjennomgang av åpne datasett og tjenester, hovedvekt på kartdata
-	- Ideutvikling i plenum – de som vil kan pitche ideer, vi begynner å sette sammen lag
+    - Hack4no og hvordan en student kan få mest mulig utbytte av det
+    - Gjennomgang av åpne datasett og tjenester, hovedvekt på kartdata
+    - Ideutvikling i plenum – de som vil kan pitche ideer, vi begynner å sette sammen lag
 - Intro-forelesning om WMS (13:15).
 
 
@@ -31,8 +31,8 @@ NB: *Rom E211* fram til lunsj.
 - [WMS-veileder fra Norge Digitalt - kapittel 1-5](https://www.geonorge.no/globalassets/geonorge2/veiledere/veileder-for-web-map-service-201008.pdf)
 - [WMS-presentasjon](./docs/WMS.pdf)
 - HTML&CSS lærebok:
-	- HTML: Kapittel 4-6
-	- CSS: Kapittel 11, 13-14
+    - HTML: Kapittel 4-6
+    - CSS: Kapittel 11, 13-14
 - [Kodeeksempler fra lærebok](http://www.htmlandcssbook.com/code-samples/)
 - [w3Schools](http://www.w3schools.com/)
   - bruk gjerne References for å lære om de ulike html- og CSS-elementene

@@ -37,8 +37,8 @@ Dette bygger på aktivitetene i planen for uke 34, så de må gjøres først.
 - [w3Schools](http://www.w3schools.com/)
   - bruk gjerne References for å lære om de ulike html- og CSS-elementene
 - HTML&CSS lærebok:
-	- HTML: Kapittel 1-3
-	- CSS: Kapittel 10 og 12
+    - HTML: Kapittel 1-3
+    - CSS: Kapittel 10 og 12
 - [Kodeeksempler fra lærebok](http://www.htmlandcssbook.com/code-samples/)
 - [Ryans Linux tutorial - introduction](http://ryanstutorials.net/linuxtutorial/)
 - [Ryans Linux tutorial - The Command Line!](http://ryanstutorials.net/linuxtutorial/commandline.php)

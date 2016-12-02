@@ -2,6 +2,7 @@
 
 ## Informasjon om emnet
 - [emneplan](./emneplan.html)
+- [leseveiledning](./leseveiledning.html)
 - [litteratur](./litteratur.html)
 - [programvare](./programvare.html)
 - [tidspunkt-eksamen](./tidspunkt-eksamen.html)
@@ -39,6 +40,7 @@
 - [README](./README.html)
 - [topo2-WMS-WebMercator](./topo2-WMS-WebMercator.html)
 - [ukeoppgave_geografiske_databaser](./ukeoppgave_geografiske_databaser.html)
+- [ukeoppgave-geografiske-databaser-l-forslag](./ukeoppgave-geografiske-databaser-l-forslag.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
 - [ukeoppgave-openlayers](./ukeoppgave-openlayers.html)
 - [ukeoppgave-openlayers-l-forslag](./ukeoppgave-openlayers-l-forslag.html)
@@ -50,9 +52,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-25 21:46:55 +0100 |Sverre Stikbakke |Uke 47 eksamensliste
+- 2016-12-02 19:07:15 +0100 |Sverre Stikbakke |Uke 48 - leseveiledning
 ## Tidligere versjoner
 
+- [2016-11-25 21:47:09 +0100 |Sverre Stikbakke |Uke 47 eksamensliste](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9625a65a686f4fb2c41a6c6b83eaaccbd1b00119/)
 - [2016-11-24 08:45:50 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/d197e1f99aeabbabc0b27c59de26348ae549695b/)
 - [2016-11-24 08:43:24 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/736cbecab71085642a3a0e74b9103658cedbfa72/)
 - [2016-11-23 10:29:06 +0100 |Sverre Stikbakke |Uke 47](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9dd35b6c721d408f498a703835ba14cae714edd2/)
