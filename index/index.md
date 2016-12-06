@@ -52,9 +52,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-12-02 19:07:15 +0100 |Sverre Stikbakke |Uke 48 - leseveiledning
+- 2016-12-06 07:54:23 +0100 |Sverre Stikbakke |OGC-linker rettet
 ## Tidligere versjoner
 
+- [2016-12-02 19:07:29 +0100 |Sverre Stikbakke |Uke 48 - leseveiledning](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/4f9623074ca8e94dc1f0cffd9599b78f2d37d5ca/)
 - [2016-11-25 21:47:09 +0100 |Sverre Stikbakke |Uke 47 eksamensliste](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9625a65a686f4fb2c41a6c6b83eaaccbd1b00119/)
 - [2016-11-24 08:45:50 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/d197e1f99aeabbabc0b27c59de26348ae549695b/)
 - [2016-11-24 08:43:24 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/736cbecab71085642a3a0e74b9103658cedbfa72/)

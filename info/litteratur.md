@@ -105,8 +105,8 @@ Online Mapping](http://cegis.usgs.gov/projection/pdf/Battersby_Implications%20of
 
 - [ISO/TC 211 Alle utgitte standarder](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_tc_browse.htm?commid=54904)
 - [OGC standarder](http://www.opengeospatial.org/docs/is)
-- [OGC/ISO Simple feature access - Part 1: Common architecture](https://fronter.com/hig/links/url_redirect.phtml?id=1470917)
-- [OGC/ISO Simple feature access - Part 2: SQL option](https://fronter.com/hig/links/url_redirect.phtml?id=1470918)
+- [OGC/ISO Simple feature access - Part 1: Common architecture](http://portal.opengeospatial.org/files/?artifact_id=25355)
+- [OGC/ISO Simple feature access - Part 2: SQL option](http://portal.opengeospatial.org/files/?artifact_id=25354)
 
 ### Topologi
 

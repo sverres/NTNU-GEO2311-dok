@@ -7,6 +7,7 @@ Det er satt av 35 minutter mellom hver student for GEO2311F og 30 minutter for G
 Nærmere informasjon om sted for eksamen og forholdsregler for eksamen over Skype vil komme seinere.
 
 -*(Det er noen som har bedt om å få eksamen på bestemte dager. Hvis jeg skulle ha glemt noen på dette punktet - ta kontakt med undertegnede.)*
+-*(Versjon 06.12.2016 - to bytter av tidspunkt er lagt inn)
 
 ```code
 14.12 kl.  8:30  Porch, Andrew Ian
@@ -17,13 +18,13 @@ Nærmere informasjon om sted for eksamen og forholdsregler for eksamen over Skyp
 14.12 kl. 11:00  Bjørnstad, Ivar
 14.12 kl. 11:30  Myrekrok, Vebjørn Borgen
 
-14.12 kl. 13:00  Berner, Ingeborg
+14.12 kl. 13:00  Samdal, Magne
 14.12 kl. 13:35  Kristensen, Steinar
 14.12 kl. 14:10  Aaberg, Solbjørg
 14.12 kl. 14:40  Vergult, Arthimis
 14.12 kl. 15:10  Flemmen, Jorunn Gjerde
 14.12 kl. 15:40  Fjogstad, Henrik Aspelund
-14.12 kl. 16:10  Nisja, Henrik Lande
+14.12 kl. 16:10  Lein, Odd Robin
 
 15.12 kl.  8.00  Mæland, Alexander
 15.12 kl.  8:35  Dyve, Jan Erik
@@ -33,7 +34,7 @@ Nærmere informasjon om sted for eksamen og forholdsregler for eksamen over Skyp
 15.12 kl. 10:45  Øistad, Sondre
 
 15.12 kl. 12:00  Larsen, Line Walberg
-15.12 kl. 12:35  Samdal, Magne
+15.12 kl. 12:35  Berner, Ingeborg
 15.12 kl. 13:10  Enerstvedt, Terje Raen
 15.12 kl. 13:40  Eriksson, Andreas
 15.12 kl. 14:10  Riiser, Ole Sannes
@@ -48,7 +49,7 @@ Nærmere informasjon om sted for eksamen og forholdsregler for eksamen over Skyp
 16.12 kl.  8:00  Feragen, Arild
 16.12 kl.  8:30  Narmo, Lars Erik
 16.12 kl.  9:00  Helland, Øystein Husevåg
-16.12 kl.  9:30  Lein, Odd Robin
+16.12 kl.  9:30  Nisja, Henrik Lande
 16.12 kl. 10:00  Grumstad, Siri Tomine
 16.12 kl. 10:30  Mauset, Margaret
 16.12 kl. 11:00  Utsogn, Håvard
