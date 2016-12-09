@@ -1,5 +1,8 @@
 # GEO2311/GEO2311F Tidspunkt for muntlig eksamen
 
+- *(Versjon 09.12.2016 - informasjon om sted og praktisk info og regler for Skype-eksamen er lagt inn)*
+- *(Versjon 06.12.2016 - to bytter av tidspunkt er lagt inn)*
+
 ## Eksamensliste
 
 Lista er satt opp ut fra trekning for henholdsvis GEO2311 og GEO2311F-studenter. GEO2311F-studenter kan, hvis ønskelig, ta eksamen over Skype.
@@ -7,7 +10,11 @@ Det er satt av 35 minutter mellom hver student for GEO2311F og 30 minutter for G
 Nærmere informasjon om sted for eksamen og forholdsregler for eksamen over Skype vil komme seinere.
 
 -*(Det er noen som har bedt om å få eksamen på bestemte dager. Hvis jeg skulle ha glemt noen på dette punktet - ta kontakt med undertegnede.)*
--*(Versjon 06.12.2016 - to bytter av tidspunkt er lagt inn)
+
+__Muntlig eksamen skal foregå på rom B209.__
+
+Vi regner i utangspunktet med at studenter på GEO2311F vil ta eksamen over Skype, men vi ser gjerne at dere kommer til Gjøvik også.
+Se praktisk informasjon og regler for eksamen over Skype her: [eksamen-over-skype](eksamen-over-skype.html).
 
 ```code
 14.12 kl.  8:30  Porch, Andrew Ian
