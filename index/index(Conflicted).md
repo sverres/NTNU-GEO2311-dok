@@ -1,12 +1,14 @@
 # GEO2311 Geografisk informasjonsbehandling Høst 2016
 
 ## Informasjon om emnet
+- [eksamen-over-skype](./eksamen-over-skype.html)
 - [emneplan](./emneplan.html)
+- [leseveiledning](./leseveiledning.html)
 - [litteratur](./litteratur.html)
 - [programvare](./programvare.html)
+- [tidspunkt-eksamen](./tidspunkt-eksamen.html)
 
 ## Ukeplaner
-- [topo2-WMS-WebMercator](./topo2-WMS-WebMercator.html)
 - [uke-34-Codeacademy](./uke-34-Codeacademy.html)
 - [uke-35-HTML-CSS](./uke-35-HTML-CSS.html)
 - [uke-36-WMS](./uke-36-WMS.html)
@@ -20,6 +22,7 @@
 - [uke-44-Kartografi](./uke-44-Kartografi.html)
 - [uke-45-Kartografi-Mapbox](./uke-45-Kartografi-Mapbox.html)
 - [uke-46-Topologi_geografiske_databaser](./uke-46-Topologi_geografiske_databaser.html)
+- [uke-47-Geografiske_databaser](./uke-47-Geografiske_databaser.html)
 
 ## Presentasjoner og opptak
 - [uke-34-39](./uke-34-39.html)
@@ -32,9 +35,13 @@
 - [hjemmeside-NTNU](./hjemmeside-NTNU.html)
 - [mapbox-lynkurs](./mapbox-lynkurs.html)
 - [notepad2meny](./notepad2meny.html)
+- [oblig-2-innleveringer](./oblig-2-innleveringer.html)
 - [openlayers-intro](./openlayers-intro.html)
 - [openlayers-norge](./openlayers-norge.html)
 - [README](./README.html)
+- [topo2-WMS-WebMercator](./topo2-WMS-WebMercator.html)
+- [ukeoppgave_geografiske_databaser](./ukeoppgave_geografiske_databaser.html)
+- [ukeoppgave-geografiske-databaser-l-forslag](./ukeoppgave-geografiske-databaser-l-forslag.html)
 - [ukeoppgave-hjemmeside](./ukeoppgave-hjemmeside.html)
 - [ukeoppgave-openlayers](./ukeoppgave-openlayers.html)
 - [ukeoppgave-openlayers-l-forslag](./ukeoppgave-openlayers-l-forslag.html)
@@ -46,9 +53,16 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-11-20 11:29:15 +0100 |Sverre Stikbakke |
+- 2016-12-09 10:30:48 +0100 |Sverre Stikbakke |Skype-eksamen, rom for muntlig
 ## Tidligere versjoner
 
+- [2016-12-06 07:54:35 +0100 |Sverre Stikbakke |OGC-linker rettet](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0e7d0ee5759f1007b5302dc92087270e0df677a4/)
+- [2016-12-02 19:07:29 +0100 |Sverre Stikbakke |Uke 48 - leseveiledning](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/4f9623074ca8e94dc1f0cffd9599b78f2d37d5ca/)
+- [2016-11-25 21:47:09 +0100 |Sverre Stikbakke |Uke 47 eksamensliste](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9625a65a686f4fb2c41a6c6b83eaaccbd1b00119/)
+- [2016-11-24 08:45:50 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/d197e1f99aeabbabc0b27c59de26348ae549695b/)
+- [2016-11-24 08:43:24 +0100 |Sverre Stikbakke |Uke 47 ukeoppgave](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/736cbecab71085642a3a0e74b9103658cedbfa72/)
+- [2016-11-23 10:29:06 +0100 |Sverre Stikbakke |Uke 47](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9dd35b6c721d408f498a703835ba14cae714edd2/)
+- [2016-11-20 11:45:02 +0100 |Sverre Stikbakke |Uke 46 teori](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9221c02605bfdc27baf559d2d5b92be76f3a6824/)
 - [2016-11-18 08:57:54 +0100 |Sverre Stikbakke |Uke 46 opptak](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7efa5adcd5336777d41282ac45fc00afe54a1e64/)
 - [2016-11-17 08:47:34 +0100 |Sverre Stikbakke |Uke 46 - v.1.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/13d1741af1f5009187843e94f7a455dd67e5db12/)
 - [2016-11-16 09:14:45 +0100 |Sverre Stikbakke |Uke 46 - v.1](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/7cfa7d31e0e6db087845ea872217df1852b9e033/)

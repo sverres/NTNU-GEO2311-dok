@@ -53,9 +53,10 @@
 - [GEO2311-GEO2311F-Oblig-2-H2016](./GEO2311-GEO2311F-Oblig-2-H2016.html)
 
 ## Denne versjonen
-- 2016-12-09 10:30:48 +0100 |Sverre Stikbakke |Skype-eksamen, rom for muntlig
+- 2016-12-11 16:31:08 +0100 |Sverre Stikbakke |Skype-brukernavn rettet
 ## Tidligere versjoner
 
+- [2016-12-09 10:31:01 +0100 |Sverre Stikbakke |Skype-eksamen, rom for muntlig](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/be56308bc0d6e9b6a1dd5a1ca102e726bc948f01/)
 - [2016-12-06 07:54:35 +0100 |Sverre Stikbakke |OGC-linker rettet](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/0e7d0ee5759f1007b5302dc92087270e0df677a4/)
 - [2016-12-02 19:07:29 +0100 |Sverre Stikbakke |Uke 48 - leseveiledning](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/4f9623074ca8e94dc1f0cffd9599b78f2d37d5ca/)
 - [2016-11-25 21:47:09 +0100 |Sverre Stikbakke |Uke 47 eksamensliste](https://cdn.rawgit.com/sverres/NTNU-GEO2311-dok/9625a65a686f4fb2c41a6c6b83eaaccbd1b00119/)
